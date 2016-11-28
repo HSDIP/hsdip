@@ -1,0 +1,117 @@
+\documentclass[letterpaper]{article}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+
+%\usepackage{latexsym}
+\usepackage{graphicx}
+%\usepackage{url}
+\usepackage[absolute]{textpos}
+\usepackage{forloop}
+\usepackage{fancyhdr}
+
+\setlength\topmargin{-0.25in}
+\setlength\oddsidemargin{-0.25in}
+\setlength\textheight{9.0in}
+\setlength\textwidth{7.0in}
+\setlength\columnsep{0.375in}
+\newlength\titlebox \setlength\titlebox{2.25in}
+\setlength\headheight{0pt}
+\setlength\headsep{0pt}
+\pagestyle{fancy}
+
+\newcommand{\headruleon}{\renewcommand{\headrulewidth}{0.6pt}}
+\newcommand{\headruleoff}{\renewcommand{\headrulewidth}{0pt}}
+
+\newcommand{\ppOnepage}[2]{{
+ \begin{textblock*}{0mm}(0mm, 0mm)%
+   \includegraphics[trim={5mm 0mm 0mm 0mm}, page=#2]{%
+     submissions/HSDIP_2016_paper_#1.pdf}
+ \end{textblock*}
+ \null
+ \clearpage
+}}
+
+\newcounter{mypage}
+
+\newcommand{\pp}[5]{{
+ \addcontentsline{toc}{section}{#3\\ \textnormal{\textit{#5}}}
+
+ \markright{}
+ \ppOnepage{#1}{1}
+
+ \markright{#4}
+ \forLoop{2}{#2}{mypage}{
+   \ppOnepage{#1}{\value{mypage}}
+ }
+}}
+
+\fancyhf{}
+
+\begin{document}
+\headruleoff
+\begin{textblock*}{0mm}(0mm, 0mm)%
+\includegraphics[trim={5mm 0mm 0mm 0mm}, page=1]{%
+ template/titlepage.pdf}
+\end{textblock*}
+\null
+
+\clearpage
+
+\cfoot{\thepage}
+
+\begin{textblock*}{0mm}(0mm, 0mm)%
+\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
+ template/committee.pdf}
+\end{textblock*}
+\vspace*{16mm}
+\input{committee} 
+\clearpage
+
+\begin{textblock*}{0mm}(0mm, 0mm)%
+\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
+ template/foreword.pdf}
+\end{textblock*}
+\vspace*{6mm}
+\input{preface}
+\clearpage
+
+\markright{}
+\begin{textblock*}{0mm}(0mm, 0mm)%
+\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
+ template/tableofcontents.pdf}
+\end{textblock*}
+\vspace*{6mm}
+\renewcommand\contentsname{}
+\tableofcontents
+\clearpage
+
+\input{paperslist}
+
+\clearpage
+
+%% Use pp with these parameters:
+%%   - paper number
+%%   - number of pages (replace XXX with 7, 9, etc.)
+%%   - Title for the table of contents
+%%   - (possibly shorter) title for the header
+%%   - Authors as they should appear in the table of contents
+
+\pp{1}{7}{\paperAtitle}{\paperAshorttitle}{\paperAauthors}
+\pp{2}{9}{\paperBtitle}{\paperBshorttitle}{\paperBauthors}
+\pp{3}{7}{\paperCtitle}{\paperCshorttitle}{\paperCauthors}
+\pp{4}{9}{\paperDtitle}{\paperDshorttitle}{\paperDauthors}
+\pp{5}{8}{\paperEtitle}{\paperEshorttitle}{\paperEauthors}
+\pp{6}{7}{\paperFtitle}{\paperFshorttitle}{\paperFauthors}
+\pp{7}{9}{\paperGtitle}{\paperGshorttitle}{\paperGauthors}
+\pp{8}{7}{\paperHtitle}{\paperHshorttitle}{\paperHauthors}
+\pp{9}{9}{\paperItitle}{\paperIshorttitle}{\paperIauthors}
+\pp{10}{8}{\paperJtitle}{\paperJshorttitle}{\paperJauthors}
+\pp{11}{8}{\paperKtitle}{\paperKshorttitle}{\paperKauthors}
+\pp{13}{9}{\paperLtitle}{\paperLshorttitle}{\paperLauthors}
+\pp{15}{9}{\paperMtitle}{\paperMshorttitle}{\paperMauthors}
+\pp{17}{9}{\paperNtitle}{\paperNshorttitle}{\paperNauthors}
+% \pp{15}{XXX}{\paperOtitle}{\paperOshorttitle}{\paperOauthors}
+% \pp{16}{XXX}{\paperPtitle}{\paperPshorttitle}{\paperPauthors}
+
+\end{document}

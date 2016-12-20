@@ -30,7 +30,7 @@ declarative description of the state space (not just a "black box"
 successor function).
 
 The workshop on Heuristics and Search for Domain-Independent Planning
-(HSDIP) is the eighth workshop in a series that started with the
+(HSDIP) is the ninth workshop in a series that started with the
 "Heuristics for Domain-Independent Planning" (HDIP) workshops at ICAPS
 2007. At ICAPS 2012, the workshop was changed to its current name and
 scope to explicitly encourage work on search for domain-independent
@@ -46,7 +46,7 @@ Examples of typical topics for submissions to this workshop are:
 Submissions
 
 Please format submissions in AAAI style (see instructions in the Author 
-Kit at http://www.aaai.org/Publications/Templates/AuthorKit16.zip) and 
+Kit at http://www.aaai.org/Publications/Templates/AuthorKit17.zip) and 
 keep them to at most 9 pages including references. Authors considering 
 submitting to the workshop papers rejected from the main conference, 
 please ensure you do your utmost to address the comments given by ICAPS
@@ -54,13 +54,13 @@ reviewers. Please do not submit papers that are already accepted for
 the main conference to the workshop.
 
 Submissions should be made through EasyChair:
-http://www.easychair.org/conferences/?conf=hsdip2016.
+http://www.easychair.org/conferences/?conf=hsdip2017.
 
 Deadlines and Dates
 
-Submission deadline: March 4th, 2016 (UTC-12 timezone)
-Notification: April 1st, 2016
-Workshop: June 13 or 14, 2016
+Submission deadline: March 17th, 2017 (UTC-12 timezone)
+Notification: April 7st, 2017
+Workshop: June 19 or 20, 2017
 
 Every submission will be reviewed by two members of the organizing
 committee according to the usual criteria such as relevance to the
@@ -71,7 +71,7 @@ known to the reviewers, but not vice versa.
 Submissions sent to other conferences are allowed if this do not
 interfere with their submission rules. Submissions under double-blind
 review in another conference must be anonymous. In particular,
-submissions of papers under revision in IJCAI16 must be anonymous.
+submissions of papers under revision in IJCAI17 must be anonymous.
 
 The workshop is meant to be an open and inclusive forum, and we
 encourage papers that report on work in progress or that do not fit
@@ -86,9 +86,9 @@ workshop-only registration.
 Workshop Organizers
 
 J. Benton, SIFT, USA
-Daniel Bryce, SIFT, USA
-Michael Katz, IBM Research, Israel
 Nir Lipovetzky, University of Melbourne, Australia
-Christian Muise, University of Melbourne, Australia 
-Miquel Ramırez, ANU, Australia
+Florian Pommerening, University of Basel, Switzerland 
+Miquel Ramırez, University of Melbourne, Australia
+Enrico Scala, ANU, Australia
+Jendrik Seipp, University of Basel, Switzerland
 Alvaro Torralba, Saarland University, Germany

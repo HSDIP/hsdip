@@ -58,7 +58,7 @@ http://www.easychair.org/conferences/?conf=hsdip2017.
 Deadlines and Dates
 
 Submission deadline: March 17th, 2017 (UTC-12 timezone)
-Notification: April 7st, 2017
+Notification: April 7th, 2017
 Workshop: June 19 or 20, 2017
 
 Every submission will be reviewed by two members of the organizing
@@ -67,7 +67,7 @@ workshop, significance of the contribution, and technical quality. The
 review process will be single-blind: the authors' identity will be
 known to the reviewers, but not vice versa.
 
-Submissions sent to other conferences are allowed if this do not
+Submissions sent to other conferences are allowed if this does not
 interfere with their submission rules. Submissions under double-blind
 review in another conference must be anonymous. In particular,
 submissions of papers under revision in IJCAI17 must be anonymous.

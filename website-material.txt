@@ -22,12 +22,11 @@ developments in the design of planning heuristics, such that there are
 now many different kinds of heuristics, and some theories of how they
 relate to each other have begun to emerge, there is also a growing
 realization that the search algorithm plays an equally important role
-in the approach. Recent work has highlighted some of the weaknesses of
-some search algorithms, but also the rich opportunities for exploiting
-synergies between the heuristic calculation and the search to improve
-both, drawing on the fact that domain-independent planning offers a
-declarative description of the state space (not just a "black box"
-successor function).
+in the approach. Recent work has highlighted some of the weaknesses in 
+well-known search algorithms, but also opportunities to exploit
+synergies between the heuristic calculation and the search control to 
+improve both, while relying on domain-independent, declarative descriptions
+of the state space.
 
 The workshop on Heuristics and Search for Domain-Independent Planning
 (HSDIP) is the ninth workshop in a series that started with the

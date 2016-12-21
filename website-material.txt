@@ -91,7 +91,7 @@ to resubmit them to the ICAPS 2018 main track.
 
 Workshop Organizers
 
-J. Benton, NASA Ames Research Center & AAMU-RISE.
+J. Benton, NASA Ames Research Center & AAMU-RISE
 Nir Lipovetzky, University of Melbourne, Australia
 Florian Pommerening, University of Basel, Switzerland 
 Miquel Ramırez, University of Melbourne, Australia

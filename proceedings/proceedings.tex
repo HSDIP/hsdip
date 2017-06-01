@@ -3,113 +3,61 @@
 \usepackage{helvet}
 \usepackage{courier}
 
-%\usepackage{latexsym}
+\usepackage{pdfpages}
 \usepackage{graphicx}
-%\usepackage{url}
-\usepackage[absolute]{textpos}
-\usepackage{forloop}
-\usepackage{fancyhdr}
 
-\setlength\topmargin{-0.25in}
-\setlength\oddsidemargin{-0.25in}
-\setlength\textheight{9.0in}
-\setlength\textwidth{7.0in}
-\setlength\columnsep{0.375in}
-\newlength\titlebox \setlength\titlebox{2.25in}
-\setlength\headheight{0pt}
-\setlength\headsep{0pt}
-\pagestyle{fancy}
+\usepackage{geometry}
+\geometry{letterpaper,nohead,total={7in, 9in}}
 
-\newcommand{\headruleon}{\renewcommand{\headrulewidth}{0.6pt}}
-\newcommand{\headruleoff}{\renewcommand{\headrulewidth}{0pt}}
 
-\newcommand{\ppOnepage}[2]{{
- \begin{textblock*}{0mm}(0mm, 0mm)%
-   \includegraphics[trim={5mm 0mm 0mm 0mm}, page=#2]{%
-     submissions/HSDIP_2017_paper_#1.pdf}
- \end{textblock*}
- \null
- \clearpage
+\newcommand{\pp}[3]{{
+    \addcontentsline{toc}{section}{#3\\ \textnormal{\textit{#2}}}
+    \includepdf[pages=-,pagecommand={\thispagestyle{plain}}]{%
+        submissions/HSDIP_2017_paper_#1.pdf}
 }}
 
-\newcounter{mypage}
-
-\newcommand{\pp}[5]{{
- \addcontentsline{toc}{section}{#3\\ \textnormal{\textit{#5}}}
-
- \markright{}
- \ppOnepage{#1}{1}
-
- \markright{#4}
- \forLoop{2}{#2}{mypage}{
-   \ppOnepage{#1}{\value{mypage}}
- }
-}}
-
-\fancyhf{}
 
 \begin{document}
-\headruleoff
-\begin{textblock*}{0mm}(0mm, 0mm)%
-\includegraphics[trim={5mm 0mm 0mm 0mm}, page=1]{%
- template/titlepage.pdf}
-\end{textblock*}
-\null
+\pagenumbering{roman}
+\includepdf{template/titlepage.pdf}
+\cleardoublepage
+
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{template/organization.pdf}
+
+\vspace*{14mm}
+\noindent\textbf{J.\ Benton}\\
+NASA Ames Research Center \& AAMU-RISE, USA\\[1em]
+\textbf{Nir Lipovetzky}\\
+University of Melbourne, Australia\\[1em]
+\textbf{Florian Pommerening}\\
+University of Basel, Switzerland\\[1em]
+\textbf{Miquel Ramirez}\\
+University of Melbourne, Australia\\[1em]
+\textbf{Enrico Scala}\\
+ANU, Australia\\[1em]
+\textbf{Jendrik Seipp}\\
+University of Basel, Switzerland\\[1em]
+\textbf{\'{A}lvaro Torralba}\\
+Saarland University, Germany
 
 \clearpage
 
-\cfoot{\thepage}
-
-\begin{textblock*}{0mm}(0mm, 0mm)%
-\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
- template/committee.pdf}
-\end{textblock*}
-\vspace*{16mm}
-\input{committee} 
-\clearpage
-
-\begin{textblock*}{0mm}(0mm, 0mm)%
-\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
- template/foreword.pdf}
-\end{textblock*}
-\vspace*{6mm}
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{template/preface.pdf}
 \input{preface}
+
 \clearpage
 
-\markright{}
-\begin{textblock*}{0mm}(0mm, 0mm)%
-\includegraphics[trim={34pt 0mm 0mm 0mm}]{%
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{%
  template/tableofcontents.pdf}
-\end{textblock*}
-\vspace*{6mm}
+
 \renewcommand\contentsname{}
 \tableofcontents
-\clearpage
 
+\cleardoublepage
+\pagenumbering{arabic}
 \input{paperslist}
-
-\clearpage
-
-%% Use pp with these parameters:
-%%   - paper number
-%%   - number of pages (replace XXX with 7, 9, etc.)
-%%   - Title for the table of contents
-%%   - (possibly shorter) title for the header
-%%   - Authors as they should appear in the table of contents
-
-\pp{1}{9}{\paperAtitle}{\paperAshorttitle}{\paperAauthors}
-\pp{2}{9}{\paperBtitle}{\paperBshorttitle}{\paperBauthors}
-\pp{3}{7}{\paperCtitle}{\paperCshorttitle}{\paperCauthors}
-\pp{4}{9}{\paperDtitle}{\paperDshorttitle}{\paperDauthors}
-\pp{5}{9}{\paperEtitle}{\paperEshorttitle}{\paperEauthors}
-\pp{6}{6}{\paperFtitle}{\paperFshorttitle}{\paperFauthors}
-\pp{7}{8}{\paperGtitle}{\paperGshorttitle}{\paperGauthors}
-\pp{8}{9}{\paperHtitle}{\paperHshorttitle}{\paperHauthors}
-\pp{9}{8}{\paperItitle}{\paperIshorttitle}{\paperIauthors}
-\pp{10}{9}{\paperJtitle}{\paperJshorttitle}{\paperJauthors}
-\pp{11}{9}{\paperKtitle}{\paperKshorttitle}{\paperKauthors}
-\pp{12}{9}{\paperLtitle}{\paperLshorttitle}{\paperLauthors}
-% \pp{15}{XXX}{\paperOtitle}{\paperOshorttitle}{\paperOauthors}
-% \pp{16}{XXX}{\paperPtitle}{\paperPshorttitle}{\paperPauthors}
 
 \end{document}

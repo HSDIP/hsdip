@@ -99,7 +99,7 @@ to resubmit them to the ICAPS 2019 main track.
 
 Workshop Organizers
 
-Guillem Franc\`{e}s, University of Basel, Switzerland
+Guillem Franc&egrave;s, University of Basel, Switzerland
 Daniel Gnad, Saarland University, Germany
 Michael Katz, IBM T.J. Watson Research Center, NY, USA
 Nir Lipovetzky, University of Melbourne, Australia

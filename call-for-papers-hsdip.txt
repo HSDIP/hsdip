@@ -45,7 +45,7 @@ be compiled into each other.
 As a result, the formulation of heuristics for domain-independent 
 planning is increasingly being less about describing procedures 
 that exploit specific features in declarative information, and 
-more about describing additional constraints that make apparent 
+more about describing auxiliary constraints that make apparent 
 those features to off-the-shelf solvers that operate over a 
 logical or algebraic theory that overapproximate the set of valid 
 plans and compute the heuristic estimator. 

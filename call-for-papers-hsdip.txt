@@ -47,13 +47,13 @@ planning is increasingly being less about describing procedures
 that exploit specific features in declarative information, and 
 more about describing auxiliary constraints that make apparent 
 those features to off-the-shelf solvers that operate over a 
-logical or algebraic theory that overapproximate the set of valid 
+logical or algebraic theory that over-approximate the set of valid 
 plans and compute the heuristic estimator. 
 
 Last, but not least, there is a growing realization that the search 
 algorithm used can significantly amplify or reduce the utility of 
-specific heuristis. Recent work that highlights the pitfalls latent 
-in well-known search algorithms, also suggest opportunities to 
+specific heuristics. Recent work that highlights the pitfalls latent 
+in well-known search algorithms, also suggests opportunities to 
 exploit synergies between the heuristic calculation and the search 
 control.
 
@@ -66,17 +66,19 @@ planning.
 
 Examples of typical topics for submissions to this workshop are:
 - automatic derivation of heuristic estimators for domain-independent
-  planning via procedures or suitably defined encodings of declarative
-  descriptions of planning tasks into Satisfiability and Optimisation
+  planning
 - formal results showing equivalence or dominance between heuristics
 - novel heuristic methods dealing with planning with numeric variables 
   and effects, partial observability and non-deterministic action 
   effects
+- heuristic estimators for domain-independent planning via procedures 
+  or suitably defined encodings of declarative descriptions of planning 
+  tasks into Satisfiability or Optimisation
 - novel search techniques for domain-independent planning that explicitly 
   aim at exploiting effectively the properties of existing heuristics
 - empirical observations of synergies between heuristics and search in 
   domain-independent planning
-- challenging domains for existing coombinations of heuristics and search 
+- challenging domains for existing combinations of heuristics and search 
   algorithms
 
 Submissions

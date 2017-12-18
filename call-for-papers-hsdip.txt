@@ -21,41 +21,48 @@ Call for Papers
 
 Topics and Objectives
 
-Search guided by heuristics, automatically derived from from a declarative 
-formulation of action effects, preconditions and goals, has been a successful 
-approach to domain-independent planning. From the initial success of heuristics 
-based on syntactic relaxations and abstractions, the theory and the practice of 
-heuristic development has become more diverse, tackling more expressive planning 
-languages and often borrowing concepts and tools from Optimisation and 
-Satisfiability. 
+Search guided by heuristics, automatically derived from a 
+declarative formulation of action effects, preconditions and 
+goals, has been a successful approach to domain-independent 
+planning. From the initial success of heuristics based on 
+syntactic relaxations and abstractions, the theory and 
+practice of developing novel heuristics has become more 
+diverse, often borrowing concepts and tools from Optimisation 
+and Satisfiability, and more bold, tackling more expressive 
+planning languages.
 
 In parallel to the increasing maturity of the methods and tools 
-used to derive heuristic methods, important theoretical results have brought away 
-a more clear image of how heuristic method relate to each other. For instance, it 
-has been shown that classic frameworks for heuristic search as planning can be 
-encoded symbolically and their execution simulated via off-the-shelf satisfiability 
-solvers. Groundbreaking theoretical work has shown how heuristic 
-methods can be grouped into distinct families, depending on whether they can or 
-cannot be shown to dominate or be compiled into each other. 
+used to derive heuristic methods, important theoretical results 
+have brought around a more clear image of how heuristic method 
+relate to each other. For instance, it has been shown that classic
+frameworks for heuristic search as planning can be encoded 
+symbolically and their execution simulated via off-the-shelf 
+satisfiability solvers. Groundbreaking theoretical work has shown 
+how heuristic methods can be grouped into distinct families, 
+depending on whether they can or cannot be shown to dominate or 
+be compiled into each other. 
 
-As a result, the formulation of heuristics for domain-independent planning is 
-increasingly being less about describing procedures that exploit specific features 
-in declarative information, and more about describing additional constraints that 
-make apparent those features to off-the-shelf solvers that operate over a logical or 
-algebraic theory that overapproximate the set of valid plans and compute the heuristic
-estimator. 
+As a result, the formulation of heuristics for domain-independent 
+planning is increasingly being less about describing procedures 
+that exploit specific features in declarative information, and 
+more about describing additional constraints that make apparent 
+those features to off-the-shelf solvers that operate over a 
+logical or algebraic theory that overapproximate the set of valid 
+plans and compute the heuristic estimator. 
 
-Last, but not least, there is a growing realization that the search algorithm 
-used can significantly amplify or reduce the utility of specific heuristis. Recent 
-work that highlights the pitfalls latent in well-known search algorithms, also 
-suggest opportunities to exploit synergies between the heuristic calculation and 
-the search control.
+Last, but not least, there is a growing realization that the search 
+algorithm used can significantly amplify or reduce the utility of 
+specific heuristis. Recent work that highlights the pitfalls latent 
+in well-known search algorithms, also suggest opportunities to 
+exploit synergies between the heuristic calculation and the search 
+control.
 
-The workshop on Heuristics and Search for Domain-Independent Planning (HSDIP) is the 
-10th workshop in a series that started with the "Heuristics for Domain-Independent 
-Planning" (HDIP) workshops at ICAPS 2007. At ICAPS 2012, the workshop was changed 
-to its current name and scope to explicitly encourage work on search for 
-domain-independent planning.
+The workshop on Heuristics and Search for Domain-Independent Planning 
+(HSDIP) is the 10th workshop in a series that started with the 
+"Heuristics for Domain-Independent Planning" (HDIP) workshops at ICAPS
+2007. At ICAPS 2012, the workshop was changed to its current name and 
+scope to explicitly encourage work on search for domain-independent 
+planning.
 
 Examples of typical topics for submissions to this workshop are:
 - automatic derivation of heuristic estimators for domain-independent

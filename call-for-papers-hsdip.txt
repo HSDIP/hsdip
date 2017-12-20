@@ -105,8 +105,8 @@ please ensure you do your utmost to address the comments given by ICAPS
 reviewers. Please do not submit papers that are already accepted for
 the main conference to the workshop.
 
-Submissions should be made through EasyChair:
-http://www.easychair.org/conferences/?conf=hsdip2018.
+Submissions should be made through EasyChair (tentative):
+http://www.easychair.org/conferences/?conf=hsdip-2018.
 
 Deadlines and Dates
 
@@ -135,13 +135,6 @@ order to present the paper. Authors must register for the ICAPS main
 conference in order to attend the workshop. There will be no separate
 workshop-only registration.
 
-In order to encourage the submission of original papers to the
-workshops, the ICAPS council has announced an initiative to fast-track
-strong workshop papers from one year to the main track of the next
-ICAPS. Up to two papers will be recommended by the HSDIP
-organizers. The ICAPS 2019 program chairs will have a look at these
-papers and the workshop reviews and invite the authors of these papers
-to resubmit them to the ICAPS 2019 main track.
 
 Workshop Organizers
 

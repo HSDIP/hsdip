@@ -28,7 +28,7 @@ planning. From the initial success of heuristics based on
 syntactic relaxations and abstractions, the theory and
 practice of developing novel heuristics has become more
 diverse, often borrowing concepts and tools from Optimisation
-and Satisfiability, and more bold, tackling more expressive
+and Satisfiability, and more boldly, tackling more expressive
 planning languages.
 
 In parallel to the increasing maturity of the methods and tools
@@ -81,6 +81,20 @@ Examples of typical topics for submissions to this workshop are:
 - challenging domains for existing combinations of heuristics and search
   algorithms
 
+To coincide with the special track on Operations Research at this year's ICAPS,
+we encourage authors to submit papers pertaining to the intersection between
+heuristics and OR techniques. In particular, work that addresses one of the
+following areas is highly encouraged:
+
+- The use of CP and OR techniques for the computation of heuristics in planning.
+
+- The development of heuristics in OR (including CP, MIP, SAT, etc) that are
+  tailored to improving the efficiency of OR solvers on planning encodings.
+
+- Planning-based techniques to improve existing OR solvers on planning encodings
+  (e.g., pre-processing computation of redundant constraints, improved lower or
+  upper bounds, etc).
+
 Submissions
 
 Please format submissions in AAAI style (see instructions in the Author
@@ -110,7 +124,7 @@ known to the reviewers, but not vice versa.
 Submissions sent to other conferences are allowed if this does not
 interfere with their submission rules. Submissions under double-blind
 review in another conference must be anonymous. In particular,
-submissions of papers under revision in IJCAI18 must be anonymous.
+submissions of papers under review for IJCAI18 must be anonymous.
 
 The workshop is meant to be an open and inclusive forum, and we
 encourage papers that report on work in progress or that do not fit

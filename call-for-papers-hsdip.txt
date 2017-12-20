@@ -105,8 +105,8 @@ please ensure you do your utmost to address the comments given by ICAPS
 reviewers. Please do not submit papers that are already accepted for
 the main conference to the workshop.
 
-Submissions should be made through EasyChair (tentative):
-http://www.easychair.org/conferences/?conf=hsdip-2018.
+Submissions should be made through EasyChair:
+http://easychair.org/conferences/?conf=hsdip2018.
 
 Deadlines and Dates
 

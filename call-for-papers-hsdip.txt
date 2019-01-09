@@ -58,7 +58,7 @@ exploit synergies between the heuristic calculation and the search
 control.
 
 The workshop on Heuristics and Search for Domain-Independent Planning
-(HSDIP) is the 10th workshop in a series that started with the
+(HSDIP) is the 11th workshop in a series that started with the
 "Heuristics for Domain-Independent Planning" (HDIP) workshops at ICAPS
 2007. At ICAPS 2012, the workshop was changed to its current name and
 scope to explicitly encourage work on search for domain-independent
@@ -88,12 +88,12 @@ optimization for hybrid planning), constraint programming or
 satisfiability, or applications of machine learning in heuristic search
 (e.g., learning heuristics, adaptive search strategies, or heuristic selection).
 We will keep this stance, particularly as ICAPS 2019 will continue the special
-track on planning \& learning.
+track on planning & learning.
 
 Submissions
 
 Please format submissions in AAAI style (see instructions in the Author
-Kit at http://www.aaai.org/Publications/Templates/AuthorKit18.zip) and
+Kit at https://www.aaai.org/Publications/Templates/AuthorKit19.zip) and
 keep them to at most 9 pages including references. Authors considering
 submitting to the workshop papers rejected from the main conference,
 please ensure you do your utmost to address the comments given by ICAPS
@@ -120,7 +120,7 @@ known to the reviewers, but not vice versa.
 Submissions sent to other conferences are allowed if this does not
 interfere with their submission rules. Submissions under double-blind
 review in another conference must be anonymous. In particular,
-submissions of papers under review for IJCAI19 must be anonymous.
+submissions of papers under review for IJCAI 2019 must be anonymous.
 
 The workshop is meant to be an open and inclusive forum, and we
 encourage papers that report on work in progress or that do not fit

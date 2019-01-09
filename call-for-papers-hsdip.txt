@@ -120,7 +120,8 @@ known to the reviewers, but not vice versa.
 Submissions sent to other conferences are allowed if this does not
 interfere with their submission rules. Submissions under double-blind
 review in another conference must be anonymous. In particular,
-submissions of papers under review for IJCAI 2019 must be anonymous.
+submissions of papers under review for IJCAI 2019 and SoCS 2019 must be
+anonymous.
 
 The workshop is meant to be an open and inclusive forum, and we
 encourage papers that report on work in progress or that do not fit

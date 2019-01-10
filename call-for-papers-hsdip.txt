@@ -26,9 +26,9 @@ declarative formulation of action effects, preconditions and
 goals, has been a successful approach to domain-independent
 planning. From the initial success of heuristics based on
 syntactic relaxations and abstractions, the theory and
-practice of developing novel heuristics has become more
+practice of developing novel heuristics have become more
 diverse, often borrowing concepts and tools from Optimisation
-and Satisfiability, and more boldly, tackling more expressive
+and Satisfiability, and bolder, tackling more expressive
 planning languages.
 
 In parallel to the increasing maturity of the methods and tools

@@ -16,9 +16,6 @@ heuristics and search methods, their limitations, ways for overcoming
 those limitations, as well as the synergy between heuristics and
 search.
 
-
-Call for Papers
-
 Topics and Objectives
 
 Search guided by heuristics, automatically derived from a
@@ -133,7 +130,6 @@ Submission deadline: 15 March 2019 (UTC-12 timezone)
 Notification: 12 April 2019
 Camera Ready: 24 May 2019
 Workshop: 11/12 July 2019
-
 
 Workshop Organizers
 

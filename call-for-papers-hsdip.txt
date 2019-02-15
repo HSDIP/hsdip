@@ -83,9 +83,9 @@ for example, drawing inspiration from operations research (like row and
 column generation algorithms), convex optimization (like gradient
 optimization for hybrid planning), constraint programming or
 satisfiability, or applications of machine learning in heuristic search
-(e.g., learning heuristics, adaptive search strategies, or heuristic selection).
-We will keep this stance, particularly as ICAPS 2019 will continue the special
-track on planning & learning.
+(e.g., learning heuristics, adaptive search strategies, or heuristic 
+selection). We will keep this stance, particularly as ICAPS 2019 will 
+continue the special track on planning & learning.
 
 Submissions
 
@@ -97,7 +97,11 @@ please ensure you do your utmost to address the comments given by ICAPS
 reviewers. Please do not submit papers that are already accepted for
 the main conference to the workshop.
 
-Submissions will be made through OpenReview. The following conditions apply:
+Submissions will be made through OpenReview
+
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2019/Workshop/HSDIP
+
+The following conditions apply:
 
  - Submissions will be double blind to the general public, but single blind
  to the official reviewers and organizing committee.

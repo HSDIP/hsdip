@@ -16,7 +16,7 @@ heuristics and search methods, their limitations, ways for overcoming
 those limitations, as well as the synergy between heuristics and
 search.
 
-Topics and Objectives
+### Topics and Objectives
 
 Search guided by heuristics, automatically derived from a
 declarative formulation of action effects, preconditions and
@@ -87,7 +87,7 @@ satisfiability, or applications of machine learning in heuristic search
 selection). We will keep this stance, particularly as ICAPS 2019 will 
 continue the special track on planning & learning.
 
-Submissions
+### Submissions
 
 Please format submissions in AAAI style (see instructions in the Author
 Kit at https://www.aaai.org/Publications/Templates/AuthorKit19.zip) and
@@ -128,14 +128,19 @@ At least one author of each accepted paper must attend the workshop in order to
 present the paper. Authors must register for the ICAPS main conference in order
 to attend the workshop. There will be no separate workshop-only registration.
 
-Deadlines and Dates
+### Deadlines and Dates
 
 Submission deadline: 15 March 2019 (UTC-12 timezone)
 Notification: 12 April 2019
 Camera Ready: 24 May 2019
 Workshop: 11/12 July 2019
 
-Workshop Organizers
+### Contact and Enquiries
+
+Daniel Gnad, Saarland University, daniel.gnad at cs.uni-saarland.de
+Miquel Ramirez, University of Melbourne, miquel.ramirez at unimelb.edu.au
+
+### Workshop Organizers
 
 Patrik Haslum, Australian National University, Australia
 Daniel Gnad, Saarland University, Germany

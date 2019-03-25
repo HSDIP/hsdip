@@ -1,0 +1,49 @@
+********************************************************************************
+                    CALL FOR PARTICIPATION in public reviewing
+
+         Heuristics and Search for Domain-independent Planning 
+                             (HSDIP 2019)
+     https://icaps19.icaps-conference.org/workshops/HSDIP/index.html
+
+Collocated with the 
+
+  29th International Conference on Automated Planning and Scheduling 
+                             (ICAPS 2019)
+                 https://icaps19.icaps-conference.org
+
+taking place in Berkeley, CA, USA, 11-15th July 2019.
+********************************************************************************
+
+We invite people from the field to participate in the public reviewing
+process of this year's edition of the HSDIP workshop.
+
+All submitted papers are available online at:
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2019/Workshop/HSDIP
+
+Everyone with an OpenReview account can post comments to a paper. 
+Reviews by the program committee will presumably be available from April 5.
+
+We look forward to interesting discussions.
+
+
+### Dates
+
+Official reviews due: 5 April 2019
+Notification: 12 April 2019
+Workshop: 11/12 July 2019
+
+### Contact and Enquiries
+
+Daniel Gnad, Saarland University, gnad at cs.uni-saarland.de
+Miquel Ramirez, University of Melbourne, miquel.ramirez at unimelb.edu.au
+
+### Workshop Organizers
+
+Patrik Haslum, Australian National University, Australia
+Daniel Gnad, Saarland University, Germany
+Miquel Ramirez, University of Melbourne, Australia
+Florian Pommerening, University of Basel, Switzerland
+Jendrik Seipp, University of Basel, Switzerland
+Florian Geisser, Australian National University, Australia
+Guillem Francès, University of Basel, Switzerland
+Silvan Sievers, University of Basel, Switzerland

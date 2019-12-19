@@ -129,7 +129,7 @@ with the IJCAI rebuttal phase.
 The workshop is meant to be an open and inclusive forum, and we encourage papers
 that report on work in progress or that do not fit the mold of a typical
 conference paper. Non-trivial negative results are welcome to the workshop, but
-we expect the authors to argue for the signficance of the presented results to
+we expect the authors to argue for the significance of the presented results to
 alternative lines of research on the topic of choice.
 
 At least one author of each accepted paper must attend the workshop in order to
@@ -149,14 +149,14 @@ Notification: 4 April 2019
 Camera Ready: will be announced in time
 Workshop: June 14/15
 
-### Contact and Enquiries
+### Contact and Inquiries
 
 Florian Geißer, Australian National University, florian.geisser at anu.edu.au
 Álvaro Torralba, Saarland University, torralba at cs.uni-saarland.de
 
 ### Workshop Organizers
 
-Albert Camacho, University of Toronto, Canada
+Alberto Camacho, University of Toronto, Canada
 Salomé Eriksson, University of Basel, Switzerland
 Daniel Fišer, Czech Technical University, Czech Republic
 Guillem Francès, Universitat Pompeu Fabra, Spain

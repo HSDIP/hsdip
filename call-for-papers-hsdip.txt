@@ -101,9 +101,9 @@ workshop papers rejected from the main conference, please ensure you do your
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
 papers that are already accepted for the main conference to the workshop.
 
-Submissions will be made through OpenReview. The corresponding OpenReview link
-will be available at the end of January and will be announced on the workshop
-website (see https://icaps20.icaps-conference.org/workshops/).
+Submissions will be made through OpenReview:
+
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2020/Workshop/HSDIP
 
 The following conditions apply:
 
@@ -135,6 +135,11 @@ alternative lines of research on the topic of choice.
 At least one author of each accepted paper must attend the workshop in order to
 present the paper. Authors must register for the ICAPS main conference in order
 to attend the workshop. There will be no separate workshop-only registration.
+
+### Official workshop page
+
+The official workshop homepage with up to date information will be available
+soon, at: https://icaps20.icaps-conference.org/workshops/hsdip/
 
 ### Deadlines and Dates
 

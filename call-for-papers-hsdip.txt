@@ -3,7 +3,7 @@
 
          Heuristics and Search for Domain-independent Planning 
                              (HSDIP 2020)
-             https://icaps20.icaps-conference.org/workshops/
+            https://icaps20.icaps-conference.org/workshops/hsdip/
 
 Collocated with the 
 

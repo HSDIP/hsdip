@@ -88,9 +88,8 @@ speaker for this year's workshop. Sylvie is a professor of Computer Science at
 ANU. In the recent past, she was the director of NICTA’s Canberra Laboratories,
 home to 150 researchers and PhD students, and the Associate Dean Research
 for the College of Engineering and Computer Science.  She is co-Editor in
-Chief of the Artificial Intelligence journal (AIJ), a former ICAPS president,
-associate editor of JAIR, and Councilor of the Association for the Advancement
-of Artificial Intelligence (AAAI).
+Chief of the Artificial Intelligence journal (AIJ), a AAAI fellow, a former
+ICAPS president, and associate editor of JAIR.
 
 ### Submissions
 

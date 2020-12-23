@@ -1,17 +1,17 @@
 ********************************************************************************
                             CALL FOR PAPERS
 
-         Heuristics and Search for Domain-independent Planning 
-                             (HSDIP 2020)
-            https://icaps20.icaps-conference.org/workshops/hsdip/
+         Heuristics and Search for Domain-independent Planning
+                             (HSDIP 2021)
+         https://icaps21.icaps-conference.org/workshops/HSDIP/
 
 Collocated with the 
 
-  30th International Conference on Automated Planning and Scheduling 
-                             (ICAPS 2020)
-                 https://icaps20.icaps-conference.org
+  31st International Conference on Automated Planning and Scheduling 
+                             (ICAPS 2021)
+                 https://icaps21.icaps-conference.org
 
-taking place in Nancy, France, June 14-19, 2020.
+taking place in Guangzhou, China, June 7-12, 2021.
 ********************************************************************************
 
 Heuristics and search algorithms are the two key components of heuristic search, 
@@ -54,7 +54,7 @@ also suggests opportunities to exploit synergies between the heuristic
 calculation and the search control.
 
 The workshop on Heuristics and Search for Domain-Independent Planning (HSDIP) is
-the 12th workshop in a series that started with the "Heuristics for 
+the 13th workshop in a series that started with the "Heuristics for 
 Domain-Independent Planning" (HDIP) workshops at ICAPS 2007. At ICAPS 2012, the 
 workshop was changed to its current name and scope to explicitly encourage work 
 on search for domain-independent planning.
@@ -83,18 +83,13 @@ strategies, or heuristic selection).
 
 ### Keynote Speaker
 
-The HSDIP workshop is proud to announce that Sylvie Thiébaux will be a keynote
-speaker for this year's workshop. Sylvie is a professor of Computer Science at
-ANU. In the recent past, she was the director of NICTA’s Canberra Laboratories,
-home to 150 researchers and PhD students, and the Associate Dean Research
-for the College of Engineering and Computer Science.  She is co-Editor in
-Chief of the Artificial Intelligence journal (AIJ), a AAAI fellow, a former
-ICAPS president, and associate editor of JAIR.
+TODO
+
 
 ### Submissions
 
 Please format submissions in AAAI style (see instructions in the Author Kit at 
-https://www.aaai.org/Publications/Templates/AuthorKit20.zip) and keep them to 
+https://www.aaai.org/Publications/Templates/AuthorKit21.zip) and keep them to 
 at most 9 pages including references. Authors considering submitting to the 
 workshop papers rejected from the main conference, please ensure you do your 
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
@@ -102,14 +97,14 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-https://openreview.net/group?id=icaps-conference.org/ICAPS/2020/Workshop/HSDIP
+TODO: link to submission page
 
 The following conditions apply:
 
  - Submissions will be double blind in general and single blind to the area
- chair.
+   chair.
  - The submitted papers, reviews and discussion between authors and reviewers
- will be public, and all anonymous.
+   will be public, and all anonymous.
  - Discussions between reviewers and organisers will be private.
 
 Every submission will be reviewed by two members of the organizing committee
@@ -138,30 +133,26 @@ to attend the workshop. There will be no separate workshop-only registration.
 ### Official workshop page
 
 The official workshop homepage with up to date information is available at:
-https://icaps20.icaps-conference.org/workshops/hsdip/
+https://icaps21.icaps-conference.org/workshops/HSDIP/
 
 ### Deadlines and Dates
 
-Submission deadline: 2 March 2020 (UTC-12 timezone)
-Open discussion: 26-31 March
-Notification: 4 April
+Submission deadline: TODO [old: 2 March 2020 (UTC-12 timezone)]
+Open discussion: TODO [old: 26-31 March]
+Notification: TODO [old: 4 April]
 Camera Ready: will be announced in time
-Workshop: 14/15 June
+Workshop: TODO
 
 ### Contact and Inquiries
 
-Florian Geißer, Australian National University, florian.geisser at anu.edu.au
-Álvaro Torralba, Saarland University, torralba at cs.uni-saarland.de
+TODO
 
 ### Workshop Organizers
 
-Alberto Camacho, University of Toronto, Canada
-Salomé Eriksson, University of Basel, Switzerland
-Daniel Fišer, Czech Technical University, Czech Republic
-Guillem Francès, Universitat Pompeu Fabra, Spain
-Florian Geißer, Australian National University, Australia
-Patrik Haslum, Australian National University, Australia
-Jendrik Seipp, University of Basel, Switzerland
-Silvan Sievers, University of Basel, Switzerland
+Salom\'{e} Eriksson, University of Basel, Switzerland
+Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
+Daniel Fi\v{s}er, Czech Technical University, Czech Republic
+Daniel Gnad, Saarland University, Germany
+Florian Pommerening, University of Basel, Switzerland
 David Speck, University of Freiburg, Germany
-Álvaro Torralba, Saarland University, Germany
+\'A}lvaro Torralba, Aalborg University, Denmark

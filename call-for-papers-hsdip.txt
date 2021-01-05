@@ -71,7 +71,7 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-TODO: link to submission page
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2021/Workshop/HSDIP
 
 The following conditions apply:
 

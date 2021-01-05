@@ -14,50 +14,23 @@ Collocated with the
 taking place in Guangzhou, China, June 7-12, 2021.
 ********************************************************************************
 
+# Deadlines and Dates
+
+Submission deadline: 10 March 2021 (UTC-12 timezone)
+Open discussion: 1-10 April 2021
+Notification: 15 April 2021
+Camera Ready: will be announced in time
+Workshop: 8/9 June 2021
+
+
+# Topics
+
 Heuristics and search algorithms are the two key components of heuristic search, 
 one of the main approaches to many variations of domain-independent planning, 
 including classical planning, temporal planning, planning under uncertainty and 
 adversarial planning. This workshop seeks to understand the underlying principles 
 of current heuristics and search methods, their limitations, ways for overcoming 
 those limitations, as well as the synergy between heuristics and search.
-
-### Topics and Objectives
-
-Search guided by heuristics, automatically derived from a declarative 
-formulation of action effects, preconditions and goals, has been a successful 
-approach to domain-independent planning. From the initial success of heuristics 
-based on syntactic relaxations and abstractions, the theory and practice of 
-developing novel heuristics have become more diverse, often borrowing concepts 
-and tools from Optimisation and Satisfiability, and bolder, tackling more 
-expressive planning languages.
-
-In parallel to the increasing maturity of the methods and tools used to derive 
-heuristic methods, important theoretical results have brought around a more 
-clear image of how heuristic methods relate to each other. For instance, it has 
-been shown that classic frameworks for heuristic search as planning can be 
-encoded symbolically and their execution simulated via off-the-shelf 
-satisfiability solvers. Groundbreaking theoretical work has shown how heuristic 
-methods can be grouped into distinct families, depending on whether they can or 
-cannot be shown to dominate or be compiled into each other.
-
-As a result, the formulation of heuristics for domain-independent planning is 
-increasingly being less about describing procedures that exploit specific 
-features in declarative information, and more about describing auxiliary 
-constraints that make apparent those features to off-the-shelf solvers that 
-operate over a logical or algebraic theory that over-approximate the set of valid
-plans and compute the heuristic estimator.
-
-Last, but not least, there is a growing realization that the search algorithm 
-used can significantly amplify or reduce the utility of specific heuristics. 
-Recent work that highlights the pitfalls latent in well-known search algorithms, 
-also suggests opportunities to exploit synergies between the heuristic 
-calculation and the search control.
-
-The workshop on Heuristics and Search for Domain-Independent Planning (HSDIP) is
-the 13th workshop in a series that started with the "Heuristics for 
-Domain-Independent Planning" (HDIP) workshops at ICAPS 2007. At ICAPS 2012, the 
-workshop was changed to its current name and scope to explicitly encourage work 
-on search for domain-independent planning.
 
 Examples of typical topics for submissions to this workshop are:
 - automatic derivation of heuristic estimators for domain-independent planning
@@ -73,20 +46,21 @@ Examples of typical topics for submissions to this workshop are:
   domain-independent planning
 - challenging domains for existing combinations of heuristics and search 
   algorithms
+- applications of machine learning in heuristic search, e.g., learning heuristics, 
+  adaptive search strategies, or heuristic selection.
 
 The HSDIP workshop has always been welcoming of multidisciplinary work, for 
 example, drawing inspiration from operations research (like row and column 
 generation algorithms), convex optimization (like gradient optimization for 
-hybrid planning), constraint programming or satisfiability, or applications of 
-machine learning in heuristic search (e.g., learning heuristics, adaptive search 
-strategies, or heuristic selection).
+hybrid planning), constraint programming, or satisfiability.
 
-### Keynote Speaker
+The workshop is meant to be an open and inclusive forum, and we encourage papers
+that report on work in progress or that do not fit the mold of a typical
+conference paper. Non-trivial negative results are welcome to the workshop, but
+we expect the authors to argue for the significance of the presented results. 
 
-TODO
 
-
-### Submissions
+# Submissions
 
 Please format submissions in AAAI style (see instructions in the Author Kit at 
 https://www.aaai.org/Publications/Templates/AuthorKit21.zip) and keep them to 
@@ -109,9 +83,9 @@ The following conditions apply:
 
 Every submission will be reviewed by two members of the organizing committee
 according to the usual criteria such as relevance to the workshop, significance
-of the contribution, and technical quality. There will be a brief 1 week
-discussion phase where author and reviewers can interactively engage and discuss
-the submission and the reviews.
+of the contribution, and technical quality. There will be a brief discussion 
+phase where author and reviewers can interactively engage and discuss the 
+submission and the reviews.
 
 Submissions sent to other conferences are allowed. It is the responsibility of
 the authors to ensure that those venues allow for papers submitted to be
@@ -120,39 +94,20 @@ associated ISSN/ISBN). In particular, we welcome submissions sent to the IJCAI
 conference and made sure that the workshop discussion phase does not conflict
 with the IJCAI rebuttal phase.
 
-The workshop is meant to be an open and inclusive forum, and we encourage papers
-that report on work in progress or that do not fit the mold of a typical
-conference paper. Non-trivial negative results are welcome to the workshop, but
-we expect the authors to argue for the significance of the presented results to
-alternative lines of research on the topic of choice.
-
 At least one author of each accepted paper must attend the workshop in order to
-present the paper. Authors must register for the ICAPS main conference in order
-to attend the workshop. There will be no separate workshop-only registration.
+present the paper. The workshop format (fully virtual or hybrid) will be the same 
+as the format of the main conference. Authors must register for the ICAPS 
+conference in order to attend the workshop. 
 
-### Official workshop page
 
-The official workshop homepage with up to date information is available at:
-https://icaps21.icaps-conference.org/workshops/HSDIP/
+# Workshop Organizers
 
-### Deadlines and Dates
+Contact: hsdip@googlegroups.com
 
-Submission deadline: TODO [old: 2 March 2020 (UTC-12 timezone)]
-Open discussion: TODO [old: 26-31 March]
-Notification: TODO [old: 4 April]
-Camera Ready: will be announced in time
-Workshop: TODO
-
-### Contact and Inquiries
-
-TODO
-
-### Workshop Organizers
-
-Salom\'{e} Eriksson, University of Basel, Switzerland
+Salomé Eriksson, University of Basel, Switzerland
 Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
-Daniel Fi\v{s}er, Czech Technical University, Czech Republic
+Daniel Fiser, Czech Technical University, Czech Republic and Saarland University, Germany 
 Daniel Gnad, Saarland University, Germany
 Florian Pommerening, University of Basel, Switzerland
 David Speck, University of Freiburg, Germany
-\'A}lvaro Torralba, Aalborg University, Denmark
+Álvaro Torralba, Aalborg University, Denmark

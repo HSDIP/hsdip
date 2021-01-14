@@ -1,100 +1,135 @@
-Heuristics and Search for Domain-independent Planning (HSDIP)
+# Heuristics and Search for Domain-independent Planning (HSDIP)
 
-Heuristics and search algorithms are the two key components of
-heuristic search, one of the main approaches to many variations of
-domain-independent planning, including classical planning, temporal
-planning, planning under uncertainty and adversarial planning. This
-workshop seeks to understand the underlying principles of current
-heuristics and search methods, their limitations, ways for overcoming
-those limitations, as well as the synergy between heuristics and
-search.
+Heuristics and search algorithms are the two key components of heuristic search, 
+one of the main approaches to many variations of domain-independent planning, 
+including classical planning, temporal planning, planning under uncertainty and 
+adversarial planning. This workshop seeks to understand the underlying principles 
+of current heuristics and search methods, their limitations, ways for overcoming 
+those limitations, as well as the synergy between heuristics and search.
+
+## Deadlines and Dates
+
+Submission deadline: 10 March 2021 (UTC-12 timezone)
+Open discussion: 1-10 April 2021
+Notification: 15 April 2021
+Camera Ready: will be announced in time
+Workshop: 8/9 June 2021
 
 
-Call for Papers
+## Topics and Objectives
 
-Topics and Objectives
+Search guided by heuristics, automatically derived from a declarative 
+formulation of action effects, preconditions and goals, has been a successful 
+approach to domain-independent planning. From the initial success of heuristics 
+based on syntactic relaxations and abstractions, the theory and practice of 
+developing novel heuristics have become more diverse, often borrowing concepts 
+and tools from Optimisation and Satisfiability, and bolder, tackling more 
+expressive planning languages.
 
-State-space search guided by heuristics, automatically derived from
-the problem representation, has been one of the most popular, and
-arguably one of the most successful, approaches to domain-independent
-planning in the last decade. While there has been significant
-developments in the design of planning heuristics, such that there are
-now many different kinds of heuristics, and some theories of how they
-relate to each other have begun to emerge, there is also a growing
-realization that the search algorithm plays an equally important role
-in the approach. Recent work has highlighted some of the weaknesses in 
-well-known search algorithms, but also opportunities to exploit
-synergies between the heuristic calculation and the search control to 
-improve both, while relying on domain-independent, declarative descriptions
-of the state space.
+In parallel to the increasing maturity of the methods and tools used to derive 
+heuristic methods, important theoretical results have brought around a more 
+clear image of how heuristic methods relate to each other. For instance, it has 
+been shown that classic frameworks for heuristic search as planning can be 
+encoded symbolically and their execution simulated via off-the-shelf 
+satisfiability solvers. Groundbreaking theoretical work has shown how heuristic 
+methods can be grouped into distinct families, depending on whether they can or 
+cannot be shown to dominate or be compiled into each other.
 
-The workshop on Heuristics and Search for Domain-Independent Planning
-(HSDIP) is the ninth workshop in a series that started with the
-"Heuristics for Domain-Independent Planning" (HDIP) workshops at ICAPS
-2007. At ICAPS 2012, the workshop was changed to its current name and
-scope to explicitly encourage work on search for domain-independent
-planning.
+As a result, the formulation of heuristics for domain-independent planning is 
+increasingly being less about describing procedures that exploit specific 
+features in declarative information, and more about describing auxiliary 
+constraints that make apparent those features to off-the-shelf solvers that 
+operate over a logical or algebraic theory that over-approximate the set of valid
+plans and compute the heuristic estimator.
+
+Last, but not least, there is a growing realization that the search algorithm 
+used can significantly amplify or reduce the utility of specific heuristics. 
+Recent work that highlights the pitfalls latent in well-known search algorithms, 
+also suggests opportunities to exploit synergies between the heuristic 
+calculation and the search control.
+
+The workshop on Heuristics and Search for Domain-Independent Planning (HSDIP) is
+the 13th workshop in a series that started with the "Heuristics for 
+Domain-Independent Planning" (HDIP) workshops at ICAPS 2007. At ICAPS 2012, the 
+workshop was changed to its current name and scope to explicitly encourage work 
+on search for domain-independent planning.
 
 Examples of typical topics for submissions to this workshop are:
-- automatic derivation of heuristic estimators for domain-independent
-  planning
-- search techniques for domain-independent planning
-- synergy between heuristics and search in domain-independent planning
-- challenging domains for heuristic search planning
+- automatic derivation of heuristic estimators for domain-independent planning
+- formal results showing equivalence or dominance between heuristics
+- novel heuristic methods dealing with planning with numeric variables
+  and effects, partial observability and non-deterministic action effects
+- heuristic estimators for domain-independent planning via procedures or 
+  suitably defined encodings of declarative descriptions of planning tasks into 
+  Satisfiability or Optimisation
+- novel search techniques for domain-independent planning that explicitly aim at 
+  exploiting effectively the properties of existing heuristics
+- empirical observations of synergies between heuristics and search in 
+  domain-independent planning
+- challenging domains for existing combinations of heuristics and search 
+  algorithms
+- applications of machine learning in heuristic search, e.g., learning heuristics, 
+  adaptive search strategies, or heuristic selection.
 
-Submissions
+The HSDIP workshop has always been welcoming of multidisciplinary work, for 
+example, drawing inspiration from operations research (like row and column 
+generation algorithms), convex optimization (like gradient optimization for 
+hybrid planning), constraint programming, or satisfiability.
 
-Please format submissions in AAAI style (see instructions in the Author 
-Kit at http://www.aaai.org/Publications/Templates/AuthorKit17.zip) and 
-keep them to at most 9 pages including references. Authors considering 
-submitting to the workshop papers rejected from the main conference, 
-please ensure you do your utmost to address the comments given by ICAPS
-reviewers. Please do not submit papers that are already accepted for
-the main conference to the workshop.
+The workshop is meant to be an open and inclusive forum, and we encourage papers
+that report on work in progress or that do not fit the mold of a typical
+conference paper. Non-trivial negative results are welcome to the workshop, but
+we expect the authors to argue for the significance of the presented results. 
 
-Submissions should be made through EasyChair:
-http://www.easychair.org/conferences/?conf=hsdip2017.
 
-Deadlines and Dates
+## Submissions
 
-Submission deadline: March 17th, 2017 (UTC-12 timezone)
-Notification: April 7th, 2017
-Workshop: June 19 or 20, 2017
+Please format submissions in AAAI style (see instructions in the Author Kit at 
+https://www.aaai.org/Publications/Templates/AuthorKit21.zip) and keep them to 
+at most 9 pages including references. Authors considering submitting to the 
+workshop papers rejected from the main conference, please ensure you do your 
+utmost to address the comments given by ICAPS reviewers. Please do not submit 
+papers that are already accepted for the main conference to the workshop.
 
-Every submission will be reviewed by two members of the organizing
-committee according to the usual criteria such as relevance to the
-workshop, significance of the contribution, and technical quality. The
-review process will be single-blind: the authors' identity will be
-known to the reviewers, but not vice versa.
+Submissions will be made through OpenReview:
 
-Submissions sent to other conferences are allowed if this does not
-interfere with their submission rules. Submissions under double-blind
-review in another conference must be anonymous. In particular,
-submissions of papers under revision in IJCAI17 must be anonymous.
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2021/Workshop/HSDIP
 
-The workshop is meant to be an open and inclusive forum, and we
-encourage papers that report on work in progress or that do not fit
-the mold of a typical conference paper.
+The following conditions apply:
 
-At least one author of each accepted paper must attend the workshop in
-order to present the paper. Authors must register for the ICAPS main
-conference in order to attend the workshop. There will be no separate
-workshop-only registration.
+ - Submissions will be double blind in general and single blind to the area
+   chair.
+ - The submitted papers, reviews and discussion between authors and reviewers
+   will be public, and all anonymous.
+ - Discussions between reviewers and organisers will be private.
 
-In order to encourage the submission of original papers to the
-workshops, the ICAPS council has announced an initiative to fast-track
-strong workshop papers from one year to the main track of the next
-ICAPS. Up to two papers will be recommended by the HSDIP
-organizers. The ICAPS 2018 program chairs will have a look at these
-papers and the workshop reviews and invite the authors of these papers
-to resubmit them to the ICAPS 2018 main track.
+Every submission will be reviewed by two members of the organizing committee
+according to the usual criteria such as relevance to the workshop, significance
+of the contribution, and technical quality. There will be a brief discussion 
+phase where author and reviewers can interactively engage and discuss the 
+submission and the reviews.
 
-Workshop Organizers
+Submissions sent to other conferences are allowed. It is the responsibility of
+the authors to ensure that those venues allow for papers submitted to be
+already published in "informal" ways (e.g. on proceedings or websites without
+associated ISSN/ISBN). In particular, we welcome submissions sent to the IJCAI
+conference and made sure that the workshop discussion phase does not conflict
+with the IJCAI rebuttal phase.
 
-J. Benton, NASA Ames Research Center & AAMU-RISE
-Nir Lipovetzky, University of Melbourne, Australia
-Florian Pommerening, University of Basel, Switzerland 
-Miquel Ramırez, University of Melbourne, Australia
-Enrico Scala, ANU, Australia
-Jendrik Seipp, University of Basel, Switzerland
-Alvaro Torralba, Saarland University, Germany
+At least one author of each accepted paper must attend the workshop in order to
+present the paper. The workshop format (fully virtual or hybrid) will be the same 
+as the format of the main conference. Authors must register for the ICAPS 
+conference in order to attend the workshop. 
+
+
+## Workshop Organizers
+
+Contact: hsdip@googlegroups.com
+
+Salomé Eriksson, University of Basel, Switzerland
+Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
+Daniel Fiser, Czech Technical University, Czech Republic and Saarland University, Germany 
+Daniel Gnad, Saarland University, Germany
+Florian Pommerening, University of Basel, Switzerland
+David Speck, University of Freiburg, Germany
+Álvaro Torralba, Aalborg University, Denmark

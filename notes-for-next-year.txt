@@ -1,0 +1,12 @@
+Feedback/Suggestions we collected in 2021:
+
+* coordinate break with other workshops (in a way that invited talks of other
+  workshops can be attended)
+* Ask for encodings that mess up heuristics (e.g., state cloning), open
+  challenges track, has to be a problem that you want solved
+* share talks overlapping two workshops (coordinate schedule)
+* better chat (discord?) but beware of adding too many systems
+* make chat persistent in some form but make people aware that they are on the
+  record at the start.
+* advertise more to other communities (idea from SoCS: have a theme, like "route
+  planning" and advertise in that area)

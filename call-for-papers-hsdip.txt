@@ -2,25 +2,24 @@
                             CALL FOR PAPERS
 
          Heuristics and Search for Domain-independent Planning
-                             (HSDIP 2021)
-         https://icaps21.icaps-conference.org/workshops/HSDIP/
+                             (HSDIP 2022)
+         https://icaps22.icaps-conference.org/workshops/HSDIP/TODO
 
 Collocated with the 
+  32st International Conference on Automated Planning and Scheduling 
+                             (ICAPS 2022)
+                 https://icaps22.icaps-conference.org
 
-  31st International Conference on Automated Planning and Scheduling 
-                             (ICAPS 2021)
-                 https://icaps21.icaps-conference.org
-
-taking place in Guangzhou, China, June 7-12, 2021.
+taking place at the Singapore Management University, Singapore, June 19-24, 2022.
 ********************************************************************************
 
 # Deadlines and Dates
 
-Submission deadline: 10 March 2021 (UTC-12 timezone)
-Open discussion: 1-10 April 2021
-Notification: 15 April 2021
+Submission deadline: 24 March 2021 (UTC-12 timezone)
+Open discussion: 14-21 April 2021
+Notification: 28 April 2022
 Camera Ready: will be announced in time
-Workshop: 8/9 June 2021
+Workshop: 20/21 June 2022
 
 
 # Topics
@@ -48,6 +47,8 @@ Examples of typical topics for submissions to this workshop are:
   algorithms
 - applications of machine learning in heuristic search, e.g., learning heuristics, 
   adaptive search strategies, or heuristic selection.
+- interesting algorithmic optimizations for the calculation of a 
+  heuristic or the execution of a search.
 
 The HSDIP workshop has always been welcoming of multidisciplinary work, for 
 example, drawing inspiration from operations research (like row and column 
@@ -63,7 +64,7 @@ we expect the authors to argue for the significance of the presented results.
 # Submissions
 
 Please format submissions in AAAI style (see instructions in the Author Kit at 
-https://www.aaai.org/Publications/Templates/AuthorKit21.zip) and keep them to 
+https://www.aaai.org/Publications/Templates/AuthorKit22.zip) and keep them to 
 at most 9 pages including references. Authors considering submitting to the 
 workshop papers rejected from the main conference, please ensure you do your 
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
@@ -71,7 +72,7 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-https://openreview.net/group?id=icaps-conference.org/ICAPS/2021/Workshop/HSDIP
+(TOODOcreateOpenReview)
 
 The following conditions apply:
 
@@ -81,7 +82,7 @@ The following conditions apply:
    will be public, and all anonymous.
  - Discussions between reviewers and organisers will be private.
 
-Every submission will be reviewed by two members of the organizing committee
+Every submission will be reviewed by TODOtwo members of the organizing committee
 according to the usual criteria such as relevance to the workshop, significance
 of the contribution, and technical quality. There will be a brief discussion 
 phase where author and reviewers can interactively engage and discuss the 
@@ -90,24 +91,22 @@ submission and the reviews.
 Submissions sent to other conferences are allowed. It is the responsibility of
 the authors to ensure that those venues allow for papers submitted to be
 already published in "informal" ways (e.g. on proceedings or websites without
-associated ISSN/ISBN). In particular, we welcome submissions sent to the IJCAI
-conference and made sure that the workshop discussion phase does not conflict
-with the IJCAI rebuttal phase.
+associated ISSN/ISBN). (TODOkeepIJCAIreference?)In particular, we welcome submissions sent to the IJCAI
+conference.
 
 At least one author of each accepted paper must attend the workshop in order to
 present the paper. The workshop format (fully virtual or hybrid) will be the same 
 as the format of the main conference. Authors must register for the ICAPS 
-conference in order to attend the workshop. 
+conference in order to attend the workshop. (TODOsomeoneJoiningICAPSphysically?)
 
 
 # Workshop Organizers
 
 Contact: hsdip@googlegroups.com
-
-Salomé Eriksson, University of Basel, Switzerland
+Liat Cohen, University of Basel, Switzerland
 Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
 Daniel Fiser, Czech Technical University, Czech Republic and Saarland University, Germany 
-Daniel Gnad, Saarland University, Germany
-Florian Pommerening, University of Basel, Switzerland
-David Speck, University of Freiburg, Germany
-Álvaro Torralba, Aalborg University, Denmark
+Michael Katz, IBM Research, United States
+Nir Lipovetzky, University of Melbourne, Australia
+Christian Muise, Queen's University, Canada
+

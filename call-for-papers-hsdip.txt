@@ -15,8 +15,8 @@ taking place at the Singapore Management University, Singapore, June 19-24, 2022
 
 # Deadlines and Dates
 
-Submission deadline: 24 March 2021 (UTC-12 timezone)
-Open discussion: 14-21 April 2021
+Submission deadline: 24 March 2022 (UTC-12 timezone)
+Open discussion: 14-21 April 2022
 Notification: 28 April 2022
 Camera Ready: will be announced in time
 Workshop: 20/21 June 2022
@@ -46,9 +46,9 @@ Examples of typical topics for submissions to this workshop are:
 - challenging domains for existing combinations of heuristics and search 
   algorithms
 - applications of machine learning in heuristic search, e.g., learning heuristics, 
-  adaptive search strategies, or heuristic selection.
+  adaptive search strategies, or heuristic selection
 - interesting algorithmic optimizations for the calculation of a 
-  heuristic or the execution of a search.
+  heuristic or the execution of a search
 
 The HSDIP workshop has always been welcoming of multidisciplinary work, for 
 example, drawing inspiration from operations research (like row and column 
@@ -72,7 +72,7 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-(TOODOcreateOpenReview)
+(TODOcreateOpenReview)
 
 The following conditions apply:
 
@@ -82,7 +82,7 @@ The following conditions apply:
    will be public, and all anonymous.
  - Discussions between reviewers and organisers will be private.
 
-Every submission will be reviewed by TODOtwo members of the organizing committee
+Every submission will be reviewed by a member of the organizing committee
 according to the usual criteria such as relevance to the workshop, significance
 of the contribution, and technical quality. There will be a brief discussion 
 phase where author and reviewers can interactively engage and discuss the 
@@ -91,14 +91,11 @@ submission and the reviews.
 Submissions sent to other conferences are allowed. It is the responsibility of
 the authors to ensure that those venues allow for papers submitted to be
 already published in "informal" ways (e.g. on proceedings or websites without
-associated ISSN/ISBN). (TODOkeepIJCAIreference?)In particular, we welcome submissions sent to the IJCAI
+associated ISSN/ISBN). In particular, we welcome submissions sent to the IJCAI
 conference.
 
 At least one author of each accepted paper must attend the workshop in order to
-present the paper. The workshop format (fully virtual or hybrid) will be the same 
-as the format of the main conference. Authors must register for the ICAPS 
-conference in order to attend the workshop. (TODOsomeoneJoiningICAPSphysically?)
-
+present the paper.
 
 # Workshop Organizers
 
@@ -106,7 +103,7 @@ Contact: hsdip@googlegroups.com
 Liat Cohen, University of Basel, Switzerland
 Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
 Daniel Fiser, Czech Technical University, Czech Republic and Saarland University, Germany 
-Michael Katz, IBM Research, United States
+Michael Katz, IBM T.J. Watson Research Center, NY, USA
 Nir Lipovetzky, University of Melbourne, Australia
 Christian Muise, Queen's University, Canada
 

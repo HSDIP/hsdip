@@ -3,7 +3,7 @@
 
          Heuristics and Search for Domain-independent Planning
                              (HSDIP 2022)
-         https://icaps22.icaps-conference.org/workshops/HSDIP/TODO
+          http://icaps22.icaps-conference.org/workshops/HSDIP/
 
 Collocated with the 
   32st International Conference on Automated Planning and Scheduling 
@@ -18,7 +18,7 @@ taking place at the Singapore Management University, Singapore, June 19-24, 2022
 Submission deadline: 24 March 2022 (UTC-12 timezone)
 Open discussion: 14-21 April 2022
 Notification: 28 April 2022
-Camera Ready: will be announced in time
+Camera Ready: 10 June 2022
 Workshop: 20/21 June 2022
 
 
@@ -72,7 +72,7 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-(TODOcreateOpenReview)
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2022/Workshop/HSDIP
 
 The following conditions apply:
 

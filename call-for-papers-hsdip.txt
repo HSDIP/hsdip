@@ -80,7 +80,7 @@ The following conditions apply:
    chair.
  - The submitted papers, reviews and discussion between authors and reviewers
    will be public, and all anonymous.
- - Discussions between reviewers and organisers will be private.
+ - Discussions between reviewers and organizers will be private.
 
 Every submission will be reviewed by a member of the organizing committee
 according to the usual criteria such as relevance to the workshop, significance
@@ -102,7 +102,7 @@ present the paper.
 Contact: hsdip@googlegroups.com
 Liat Cohen, University of Basel, Switzerland
 Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
-Daniel Fiser, Czech Technical University, Czech Republic and Saarland University, Germany 
+Daniel Fišer, Czech Technical University, Czech Republic and Saarland University, Germany 
 Michael Katz, IBM T.J. Watson Research Center, NY, USA
 Nir Lipovetzky, University of Melbourne, Australia
 Christian Muise, Queen's University, Canada

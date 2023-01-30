@@ -2,34 +2,35 @@
                             CALL FOR PAPERS
 
          Heuristics and Search for Domain-independent Planning
-                             (HSDIP 2022)
-          http://icaps22.icaps-conference.org/workshops/HSDIP/
+                             (HSDIP 2023)
+          http://icaps23.icaps-conference.org/workshops/HSDIP/
 
 Collocated with the 
-  32st International Conference on Automated Planning and Scheduling 
-                             (ICAPS 2022)
-                 https://icaps22.icaps-conference.org
+  33rd International Conference on Automated Planning and Scheduling 
+                             (ICAPS 2023)
+                 https://icaps23.icaps-conference.org
 
-taking place at the Singapore Management University, Singapore, June 19-24, 2022.
+taking place in Prague, Czech Republic, July 8-13, 2023.
 ********************************************************************************
 
 # Deadlines and Dates
 
-Submission deadline: 24 March 2022 (UTC-12 timezone)
-Open discussion: 14-21 April 2022
-Notification: 28 April 2022
-Camera Ready: 10 June 2022
-Workshop: 20/21 June 2022
+Submission deadline: 31 March 2023 (UTC-12 timezone)
+Open discussion: 20-27 April 2023
+Notification: 5 May 2023
+Workshop: 09/10 July 2023
 
 
 # Topics
 
-Heuristics and search algorithms are the two key components of heuristic search, 
-one of the main approaches to many variations of domain-independent planning, 
-including classical planning, temporal planning, planning under uncertainty and 
-adversarial planning. This workshop seeks to understand the underlying principles 
-of current heuristics and search methods, their limitations, ways for overcoming 
-those limitations, as well as the synergy between heuristics and search.
+Heuristics and search algorithms are the two key components of
+heuristic search, one of the main approaches to many variations of
+domain-independent planning, including classical planning, temporal
+planning, planning under uncertainty and adversarial planning. This
+workshop seeks to understand the underlying principles of current
+heuristics and search methods, their limitations, ways for overcoming
+those limitations, as well as the synergy between heuristics and
+search.
 
 Examples of typical topics for submissions to this workshop are:
 - automatic derivation of heuristic estimators for domain-independent planning
@@ -64,7 +65,7 @@ we expect the authors to argue for the significance of the presented results.
 # Submissions
 
 Please format submissions in AAAI style (see instructions in the Author Kit at 
-https://www.aaai.org/Publications/Templates/AuthorKit22.zip) and keep them to 
+https://www.aaai.org/Publications/Templates/AuthorKit23.zip) and keep them to 
 at most 9 pages including references. Authors considering submitting to the 
 workshop papers rejected from the main conference, please ensure you do your 
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
@@ -72,7 +73,8 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-https://openreview.net/group?id=icaps-conference.org/ICAPS/2022/Workshop/HSDIP
+TODO: THIS IS LAST YEAR'S LINK. UPDATE IT.
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2023/Workshop/HSDIP
 
 The following conditions apply:
 
@@ -100,10 +102,7 @@ present the paper.
 # Workshop Organizers
 
 Contact: hsdip@googlegroups.com
-Liat Cohen, University of Basel, Switzerland
-Patrick Ferber, University of Basel, Switzerland and Saarland University, Germany
-Daniel Fišer, Czech Technical University, Czech Republic and Saarland University, Germany 
-Michael Katz, IBM T.J. Watson Research Center, NY, USA
-Nir Lipovetzky, University of Melbourne, Australia
-Christian Muise, Queen's University, Canada
-
+Clemens Büchner, University of Basel, Switzerland
+Daniel Gnad, Linköping University, Sweden
+Thorsten Klößner, Saarland University, Germany
+Sofia Lemons, Earlham College, Indiana, USA

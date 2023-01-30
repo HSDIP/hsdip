@@ -73,7 +73,6 @@ papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 
-TODO: THIS IS LAST YEAR'S LINK. UPDATE IT.
 https://openreview.net/group?id=icaps-conference.org/ICAPS/2023/Workshop/HSDIP
 
 The following conditions apply:

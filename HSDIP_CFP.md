@@ -83,12 +83,12 @@ The following conditions apply:
    will be public, and all anonymous.
  - Discussions between reviewers and organizers will be private.
 
-Every submission will be reviewed by a member of the organizing
-committee according to the usual criteria such as relevance to the
-workshop, significance of the contribution, and technical
-quality. There will be a brief discussion phase where author and
-reviewers can interactively engage and discuss the submission and the
-reviews.
+Every submission will be reviewed by a member of the organizing committee,
+and/or external reviewers selected by the organizing committee, according
+to the usual criteria such as relevance to the workshop, significance of
+the contribution, and technical quality. There will be a brief discussion
+phase where author and reviewers can interactively engage and discuss the
+submission and the reviews.
 
 At least one author of each accepted paper must attend the workshop in
 order to present the paper.

@@ -1,8 +1,8 @@
 # Heuristics and Search for Domain-independent Planning (HSDIP 2023)
 
-ICAPS'23 Workshop
-Prague, Czech Republic
-July 9-10, 2023
+ICAPS'25 Workshop
+Melbourne, Australia
+November 10-11, 2025
 
 ## Aim and Scope of the Workshop
 
@@ -30,6 +30,7 @@ the significance of the presented results.
 ## Topics of Interest
 
 Examples of typical topics for submissions to this workshop are:
+
 - automatic derivation of heuristic estimators for domain-independent planning
 - formal results showing equivalence or dominance between heuristics
 - novel heuristic methods dealing with planning with numeric variables
@@ -51,29 +52,29 @@ Examples of typical topics for submissions to this workshop are:
 ## Important Dates
 
 **Submission deadline:**  
-31 March 2023 (UTC-12 timezone)
+TBD (UTC-12 timezone)
 
 **Open discussion:**  
-20-27 April 2023
+TBD
 
 **Notification:**  
-5 May 2023
+TBD
 
 **Workshop:**  
-09/10 July 2023
+10/11 November 2025
 
 ## Submission Details
 
 Please format submissions in AAAI style (see instructions in the Author Kit at 
-https://www.aaai.org/Publications/Templates/AuthorKit23.zip) and keep them to 
-at most 9 pages including references. Authors considering submitting to the 
+https://aaai.org/authorkit25/), long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category.  Authors considering submitting to the 
 workshop papers rejected from the main conference, please ensure you do your 
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
 papers that are already accepted for the main conference to the workshop.
 
-Submissions will be made through OpenReview:
+Submissions will be made through EasyChair:
 
-https://openreview.net/group?id=icaps-conference.org/ICAPS/2023/Workshop/HSDIP
+[!WARNING]
+>Todo insert link
 
 The following conditions apply:
 
@@ -105,11 +106,12 @@ we welcome submissions sent to the IJCAI conference.
 
 ### Organizing Committee
 
-**Clemens Büchner**, University of Basel, Switzerland  
-**Daniel Gnad**, Linköping University, Sweden  
 **Thorsten Klößner**, Saarland University, Germany  
-**Sofia Lemons**, Earlham College, Indiana, USA
+**Florian Pommerening**, University of Basel, Switzerland  
+**Devin Thomas**, University of New Hampshire, United States  
+**Arnaud Lequen**, Linköping University, Sweden  
+**Paul Höft**, Linköping University, Sweden  
+**Alison Paredes**, Queen's University, Canada  
+**Eyal Weiss**, Technion, Israel
 
 Contact: hsdip@googlegroups.com
-
-

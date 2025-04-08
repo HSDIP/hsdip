@@ -71,7 +71,7 @@ workshop papers rejected from the main conference, please ensure you do your
 utmost to address the comments given by ICAPS reviewers. Please do not submit 
 papers that are already accepted for the main conference to the workshop.
 
-Submissions will be made through EasyChair:
+Submissions will be made through OpenReview:
 
 [!WARNING]
 >Todo insert link
@@ -84,7 +84,8 @@ The following conditions apply:
    will be public, and all anonymous.
  - Discussions between reviewers and organizers will be private.
 
-Every submission will be reviewed by a member of the organizing committee,
+Previously published papers are only assessed based on their relevance to the workshop by a member of the organizing committee and will not receive a full review.
+Unpublished work will be reviewed by a member of the organizing committee,
 and/or external reviewers selected by the organizing committee, according
 to the usual criteria such as relevance to the workshop, significance of
 the contribution, and technical quality. There will be a brief discussion

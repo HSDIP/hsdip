@@ -65,11 +65,12 @@ TBD
 
 ## Submission Details
 
-Please format submissions in AAAI style (see instructions in the Author Kit at 
-https://aaai.org/authorkit25/), long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category.  Authors considering submitting to the 
-workshop papers rejected from the main conference, please ensure you do your 
-utmost to address the comments given by ICAPS reviewers. Please do not submit 
-papers that are already accepted for the main conference to the workshop.
+Please format submissions in AAAI style (see instructions in the Author Kit at https://aaai.org/authorkit25/). 
+Long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category, submissions shorter than the page limit are welcome.
+Long papers will be allocated a longer presentation at the workshop.
+Authors considering submitting to the workshop papers rejected from the main conference, 
+please ensure you do your utmost to address the comments given by ICAPS reviewers. 
+Please do not submit papers that are already accepted for the main conference to the workshop.
 
 Submissions will be made through OpenReview:
 

@@ -52,13 +52,13 @@ Examples of typical topics for submissions to this workshop are:
 ## Important Dates
 
 **Submission deadline:**  
-May 16th (UTC-12 timezone)
+May 23rd (UTC-12 timezone)
 
 **Author feedback:**  
-June 16th
+June 23rd
 
 **Notification:**  
-June 24th
+July 1st
 
 **Workshop:**  
 10/11 November 2025

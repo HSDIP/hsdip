@@ -1,4 +1,4 @@
-Heuristics and Search for Domain-independent Planning (HSDIP 2023)
+Heuristics and Search for Domain-independent Planning (HSDIP 2025)
 ==================================================================
 
 ICAPS'25 Workshop Melbourne, Australia November 10-11, 2025

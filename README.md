@@ -11,4 +11,8 @@ To drop out of that group, you need to find a successor.
 
 * Submission deadline for ICAPS workshop proposals is typically around December/January.
 * With acceptance notification, the organizers usually specify a rough schedule of when to publish the call, have paper submission, notifications, and so on.
-* TODO: include a sketch of a usual timeline here; e.g. Workshop date: week X => CRC submission: X-4 => Notification: X-8, ... (these are just some random numbers)
+* Example schedule based on some previous years:
+  - Full papers due: 8 to 10 weeks before the workshop
+  - Open discussions: 6 weeks before the workshop
+  - Notifications: At most one week after the end of the rebuttal
+

@@ -1,0 +1,73 @@
+\documentclass[a4paper]{article}
+
+\usepackage{helvet}
+\usepackage{varwidth}
+\usepackage[super]{nth}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\usetikzlibrary{positioning}
+
+%%%
+%%%		Instructions:
+%%%
+%%%	1. Unwanted entries can be commented out to omit them on the title page.
+%%%
+%%% 2. For correct positioning of the title page elements, execute pdflatex
+%%%		twice on this file.
+%%%
+\newcommand{\acronym}{HSDIP}
+\newcommand{\workshop}{Heuristics and Search
+for Domain-independent Planning (HSDIP)}
+\newcommand{\edition}{11}
+\newcommand{\editors}{
+Guillem Franc\`es, Florian Gei{\ss}er, Daniel Gnad, Patrik Haslum,
+Florian Pommerening, Miquel Ramirez, Jendrik Seipp, and Silvan Sievers}
+\begin{document}
+
+{\thispagestyle{empty}\fontfamily{phv}\selectfont%
+\definecolor{icapsblue}{HTML}{0b2c91}%
+\newcommand{\proceeding}{Proceedings of the \ifdefined\edition\nth{\edition}~\fi Workshop}%
+\begin{tikzpicture}[remember picture,overlay,every node/.style={inner sep=0pt,outer sep=0pt,text width=12cm,text centered}]%
+
+\node (conftitle)
+	[below=2cm] at (current page.north)
+		{\LARGE\nth{29} International Conference on\\ Automated Planning and Scheduling\par};
+
+\node (confdate)
+	[below=0.5cm of conftitle]
+		{\large July 10--15, 2019, Berkeley, CA, USA\par};
+
+\node (conflogo)
+	[below=1.5cm of conftitle]
+		{\includegraphics[width=8cm]{logo/icaps19}};
+
+\node (wshopacro)
+	[icapsblue] at (current page.center)
+		{\ifdefined\acronym\Huge\textbf{\acronym~~2019}\fi};
+
+\node (wshopproc)
+	[below=0.75cm of wshopacro]
+		{\begin{varwidth}{12cm}\centering\Large
+\ifdefined\acronym
+	\proceeding
+\else
+	\ifdefined\workshop
+		\proceeding
+	\fi
+\fi
+\ifdefined\workshop
+	~on\\[0.5em]\textbf{\workshop}\par
+\fi
+\end{varwidth}};
+
+\ifdefined\editors
+\node (wshopedit)
+	[above=3cm] at (current page.south)
+		{\begin{varwidth}{10cm}\centering\textbf{\color{icapsblue}Edited by:}\\[0.5em]\editors\par\end{varwidth}};
+\fi
+\end{tikzpicture}}
+% \newpage
+% \lipsum[1-4]
+\end{document}

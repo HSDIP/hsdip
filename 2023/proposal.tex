@@ -1,0 +1,210 @@
+\documentclass[10pt]{article}
+
+\newcommand{\commentout}[1]{}
+\usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,pdfstartview=FitH]{hyperref}
+
+\usepackage{geometry}
+\usepackage{layout}
+\usepackage{titling}
+
+\setlength{\droptitle}{-5em}   % This is your set screw
+
+\begin{document}
+
+\title{ICAPS 2023 Workshop on Heuristics and Search for Domain-independent
+Planning (HSDIP)%\\ \vspace*{0.7cm} Workshop Proposal
+}
+\date{}
+
+\author{}
+
+\maketitle
+
+\vspace{-2cm}
+
+
+We propose a continuation of the ICAPS workshop series ``Heuristics
+and Search for Domain-independent Planning'' at ICAPS 2023.
+
+\section*{Workshop Description}
+Heuristic search is one of the main approaches in domain-independent
+planning.  We look for contributions that help us better
+understand the ideas underlying current heuristics, their limitations,
+and ways for overcoming them.
+%
+Since the search algorithm plays an equally important role in the
+approach, we also invite contributions on new ideas on search
+techniques for domain-independent planning, as well as the synergy
+between heuristics and search.
+
+Contributions do not have to show that a new approach ``beats the competition''.
+While performance measured in the number of evaluated nodes, time, and solution
+quality remains relevant, in this workshop we seek above all crisp and
+meaningful ideas and understanding.
+%
+We are interested in all variations of domain-independent planning
+such as classical planning, temporal planning, hybrid planning, planning under
+uncertainty, adversarial planning, or (model-based) reinforcement learning.
+
+The HSDIP workshop has always been welcoming of multidisciplinary work,
+for example, drawing inspiration from operations research (like row and
+column generation algorithms), convex optimization (like gradient
+optimization for hybrid planning), constraint programming or
+satisfiability, or applications of machine learning in heuristic search
+(e.g., learning heuristics, or heuristic selection). We will keep this
+stance and promote it in the Call for Participation, particularly as ICAPS 2023
+will continue the special track on planning \& learning.
+
+\section*{Diversity}
+The HSDIP organizing committee is pursuing several strategies to promote
+diversity in the HSDIP community. So far, these include,
+
+\begin{itemize}
+  \item Inviting a diverse range of potential organizers for the workshop,
+  both in terms of under-represented groups as well as academic progression.
+  \item Committing to a diverse panel of speakers or invited talks (depending
+  on the final chosen format).
+  \item (if accessible) Actively promoting the workshop to interested undergraduate
+  students specializing in AI, to better promote the field to a wider audience.
+\end{itemize}
+
+This list is by no means complete, and we will continue to innovate on what
+we can do as an individual workshop to promote diversity both within the scope
+of HSDIP, and ICAPS more broadly.
+
+% The HSDIP workshop has always been and strives to continue being an inclusive environment.
+% While a large portion of authors is still male and either European or North American/Australian,
+% in the past we have seen a number of submissions from other, underrepresented regions,
+% such as South America or Asia, or by non-male authors. We will continue encouraging
+% diversity among submission authors.
+
+% We feel that promoting diversity just by explicitly mentioning that we
+% put an emphasis on underrepresented groups is not sufficient. We
+% want to emphasize that a career choice as a computer scientist is a strong choice,
+% regardless of gender and nationality. For that we plan to have an invited talk
+% given by a speaker who represents that diversity and successful careers can go
+% hand in hand.
+
+
+
+
+\section*{Relevance to ICAPS 2023}
+
+The workshop on heuristics and search for domain-independent planning (HSDIP) is
+the successor of the workshop on heuristics for domain-independent planning
+(HDIP), a biennial event that took place in conjunction with ICAPS during the
+years 2007, 2009, and 2011. Starting with the HSDIP workshop in 2012, the
+workshop series became an annual event.
+Many ideas presented at HDIP and HSDIP workshops have led to contributions at major
+conferences and pushed the frontier of research on heuristic planning in several
+directions, both theoretically and practically. Throughout the years, HSDIP has
+consistently had a large number of high-quality submissions and a large workshop
+participation, including the virtual workshop from 2020 to 2022, which justifies its
+continuation as an annual event.
+
+\section*{Workshop Format}
+
+The workshop is planned to have a full 1-day format, but the precise format is
+to be decided as a function of the contributions received.  We aim to allow all
+workshop contributors to present orally, and will adapt the presentation timing
+to suit. In addition, we plan to include an invited talk and 1-2 dedicated
+discussion sessions where the audience members are encouraged to participate.
+
+We plan to organize the workshop in a small team to reduce the overhead. For
+reviewing, we will take a major part of the involved effort. In order to handle
+the workload and complement our expertise, we will invite 5-10 external
+reviewers. These will be recruited mainly from past workshop organizers who are
+familiar with the process for HSDIP. We expect to have around 10-20 submissions, which can
+easily be handled in that way, particularly considering that reviewing for
+workshops is generally lightweight.
+
+
+\section*{Organizers}
+
+
+\newcommand{\organizer}[4]{\href{#2}{#1} (\href{mailto:#3}{#3})\\{#4}}
+\begin{itemize}
+
+\item \organizer{Clemens B\"uchner}{https://ai.dmi.unibas.ch/people/buechner/}{clemens.buechner@unibas.ch}
+Clemens B\"uchner is a PhD student at the University of Basel. His current
+research focus lies in using ordered landmarks to guide heuristic search for
+solving classical planning problems.
+
+\item \organizer{Daniel Gnad}{https://rlplab.com/daniel-gnad/}{daniel.gnad@liu.de}
+Daniel Gnad is a Postdoc at the Representation Learning and Planing Lab at
+Link\"oping University. His research is in the field of classical AI planning,
+mainly focusing on the newly developed concept of decoupled state-space search.
+Besides, he has also worked on partial delete-relaxation and grounding
+techniques.
+
+\item \organizer{Thorsten Kl\"o\ss{}ner}{http://fai.cs.uni-saarland.de/kloessner/}{kloessner@cs.uni-saarland.de}
+Thorsten Kl\"o\ss{}ner is a PhD student at the Foundations of Artificial
+Intelligence group at Saarland University. His main research interest lies in
+the construction of admissible heuristics, as well as admissible heuristic
+combination strategies in Probabilistic Planning. In particular, his research
+focuses primarily on abstraction heuristics, as well as cost partitioning
+heuristics for stochastic shortest path problems.
+
+\item \organizer{Sofia Lemons}{https://earlham.edu/faculty-staff/sofia-lemons/}{sofia.lemons@earlham.edu}
+Sofia is an Assistant Professor in Computer Science at Earlham
+College. Her primary research focus in AI has been on heuristic search
+and creating fast systems for planning and
+decision-making. Specifically, her focus is on suboptimal and
+memory-limited heuristic search algorithms. She also specializes in
+mathematics and computer science education and pedagogy.
+
+
+% \item \organizer{Salom\'{e} Eriksson}{https://ai.dmi.unibas.ch/people/eriksson/}{salome.eriksson@unibas.ch}
+% Salom\'{e} Eriksson is a postdoctoral researcher at the University of Basel,
+% where she also received her PhD in Computer Science in 2019. Her current
+% research as well as her dissertation focuses on how we can create certificates
+% for unsolvable planning tasks in order to increase trustworthiness of
+% state-of-the-art planning systems.
+
+% \item \organizer{Christian Muise}{http://www.haz.ca/}{christian.muise@queensu.ca}
+% {Christian Muise is an assistant professor at Queen's University in
+% Kingston, Canada. He completed his PhD on relevance-based techniques for
+% automated planning at the University of Toronto. Subsequently, he
+% held postdoc positions at the University of Melbourne and MIT,
+% and then worked in industry for two years at the MIT-IBM Watson AI Lab. He
+% has co-organized HSDIP in 2016, 2018 and has additionally held several
+% ICAPS conference organization positions including Publicity Chair (2016, 2022),
+% Journal Track Chair (2019), and Workshop Chair (2020).}
+
+% \item \href{http://people.eng.unimelb.edu.au/nlipovetzky/}{Nir Lipovetzky}
+%   (\href{mailto:nir.lipovetzky@unimelb.edu.au}{nir.lipovetzky@unimelb.edu.au})\\
+% Nir is a Senior Lecturer at The University of Melbourne.
+% His research is in the area of Automated Planning, with a special focus on width-based algorithms
+% to introduce different approaches to the problem of inference in planning. He was co-publicity
+% chair of ICAPS 2010, co-organizer of the HSDIP workshop at ICAPS 2015-2018, co-organizer of the
+% first unsolvability IPC 2016 track, co-chair of ICAPS 2017 journal track, and Co-Program Chair ICAPS 2019.
+
+%\item \href{http://ai.cs.unibas.ch/people/pommeren}{Florian Pommerening}
+%   (\href{mailto:florian.pommerening@unibas.ch}{florian.pommerening@unibas.ch})\\
+%Florian Pommerening is a postdoctoral researcher in the AI group at the
+%University of Basel, Switzerland, where he completed his PhD in 2017.
+%His main research interest is classical automated planning. For
+%his PhD thesis, he used linear and mixed integer programs to
+%automatically derive heuristic functions.
+
+%\item \href{http://www.informatik.uni-freiburg.de/~speckd/}{David Speck}
+%(\href{mailto:speckd@informatik.uni-freiburg.de}{speckd@informatik.uni-freiburg.de})\\
+%David Speck is a PhD student in the Foundations of Artificial Intelligence
+%group at the University of Freiburg, Germany. His current research focuses on
+%the use of symbolic data structures for automated planning.
+
+%\item \href{https://people.cs.aau.dk/~alto/}{{\'A}lvaro Torralba}
+%  (\href{mailto:alto@cs.aau.dk}{alto@cs.aau.dk})\\ \'Alvaro Torralba is an Associate
+%  Professor at Aalborg University. His main research interests are on heuristic search and
+%  automated planning.
+
+
+\end{itemize}
+
+\section*{Estimated Interest}
+Previous years have shown an average number of about $12$ workshop
+speakers and an audience of approximately $40$ attendees. The
+expectation is for a similar amount this year.
+
+
+\end{document}

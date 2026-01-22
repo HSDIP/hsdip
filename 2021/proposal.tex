@@ -1,0 +1,174 @@
+\documentclass[10pt]{article}
+
+\newcommand{\commentout}[1]{}
+\usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,pdfstartview=FitH]{hyperref}
+
+\usepackage{geometry}
+\usepackage{layout}
+\usepackage{titling}
+
+\setlength{\droptitle}{-5em}   % This is your set screw
+
+\begin{document}
+
+\title{ICAPS 2021 Workshop on Heuristics and Search for Domain-independent
+Planning (HSDIP)%\\ \vspace*{0.7cm} Workshop Proposal
+}
+\date{}
+
+\author{}
+
+\maketitle
+
+\vspace{-2cm}
+
+
+We propose a continuation of the ICAPS workshop series ``Heuristics
+and Search for Domain-independent Planning'' at ICAPS 2021.
+
+\section*{Workshop Description}
+Heuristic search is one of the main approaches in domain-independent
+planning.  We look for contributions that would help us better
+understand the ideas underlying current heuristics, their limitations,
+and ways for overcoming them.
+%
+Since the search algorithm plays an equally important role in the
+approach, we also invite contributions on new ideas on search
+techniques for domain-independent planning, as well as the synergy
+between heuristics and search.
+
+Contributions do not have to show that a new approach ``beats the competition''.
+While performance measured in the number of evaluated nodes, time, and solution
+quality remains relevant, in this workshop we seek above all crisp and
+meaningful ideas and understanding.
+%
+We are interested in all variations of domain-independent planning
+such as classical planning, temporal planning, hybrid planning, planning under
+uncertainty, adversarial planning, or (model-based) reinforcement learning.
+
+The HSDIP workshop has always been welcoming of multidisciplinary work,
+for example, drawing inspiration from operations research (like row and
+column generation algorithms), convex optimization (like gradient
+optimization for hybrid planning), constraint programming or
+satisfiability, or applications of machine learning in heuristic search
+(e.g., learning heuristics, or heuristic selection). We will keep this
+stance and promote it in the Call for Participation, particularly as ICAPS 2021
+will continue the special track on planning \& learning.
+
+\section*{Diversity}
+The HSDIP workshop has always been an inclusive environment, yet an analysis
+of the diversity among participants of previous years shows that a large portion
+of authors is male and either European or North American. Although we had
+submissions from other countries, such as South America, Asia, Australia, or by
+non-male authors, they form the minority.
+
+However, we feel that promoting diversity just by explicitly mentioning that we
+put an emphasis on underrepresented groups is the wrong approach. Instead, we
+want to emphasize that a career choice as a computer scientist is a strong choice,
+regardless of gender and nationality. For that we plan to have an invited talk
+given by a speaker who represents that diversity and successful careers can go
+hand in hand. 
+
+
+
+
+\section*{Relevance to ICAPS 2021}
+
+The workshop on heuristics and search for domain-independent planning (HSDIP) is
+the successor of the workshop on heuristics for domain-independent planning
+(HDIP), a biennial event that took place in conjunction with ICAPS during the
+years 2007, 2009, and 2011. Starting with the HSDIP workshop in 2012, the
+workshop series became an annual event.
+Many ideas presented at HDIP and HSDIP workshops have led to contributions at major 
+conferences and pushed the frontier of research on heuristic planning in several 
+directions, both theoretically and practically. Throughout the years, HSDIP has 
+consistently had a large number of high-quality submissions and a large workshop 
+participation, including the virtual workshop in 2020, which justifies its 
+continuation as an annual event.
+
+\section*{Workshop Format}
+
+The workshop is planned to have a full 1-day format, but the precise
+format is to be decided as a function of the contributions received.
+We aim to allow all workshop contributors to present orally, and will
+adapt the presentation timing to suit. In addition, we plan to include
+1-2 dedicated discussion sessions where the audience members are
+encouraged to participate. All these decisions obviously depend on how ICAPS 2021
+is actually held, virtual, hybrid, or in-person as currently planned. We
+will adapt the format according to the setting.
+
+Following the success of the workshop for the past years and the fact
+that the majority of workshop submissions are accepted, we would like to reduce
+the reviewing load of the community by not having a program
+committee. Acceptance decisions will be made directly by the
+organizers. We expect to have around 10-20 submissions, which can
+easily be handled by us, particularly considering that reviewing for
+workshops is generally light. Between us, we have sufficient
+competence in the topic of the workshop to make informed decisions,
+but should the need arise, we can call on additional reviewing
+expertise.
+
+\section*{Organizers}
+
+\begin{itemize}
+
+\item \href{https://ai.dmi.unibas.ch/people/eriksson/}{Salom\'{e} Eriksson}
+(\href{mailto:salome.eriksson@unibas.ch}{salome.eriksson@unibas.ch})\\
+Salom\'{e} Eriksson is a postdoctoral researcher at the University of 
+Basel, where she also received her PhD in Computer Science in 2019. Her
+current research as well as her dissertation focuses on how we can
+create certificates for unsolvable planning tasks in order to increase
+trustworthiness of state-of-the-art planning systems.
+
+\item \href{https://ai.dmi.unibas.ch/people/ferber/}{Patrick Ferber}
+(\href{mailto:patrick.ferber@unibas.ch}{patrick.ferber@unibas.ch})\\
+Patrick Ferber is a PhD student in the AI group at the University of 
+Basel and in the Foundations of Artificial Intelligence group at 
+Saarland University. His research interest is on machine learning for 
+planning with a focus on learning heuristic functions.
+
+\item \href{http://cs.fel.cvut.cz/en/people/fiserdan}{Daniel Fi\v{s}er}
+(\href{mailto:danfis@danfis.cz}{danfis@danfis.cz})\\
+Daniel Fi\v{s}er is a PhD student at Czech Technical University in Prague
+awaiting the defense of his dissertation, and a researcher in the
+Foundations of Artificial Intelligence group at Saarland University.
+His main research interest is classical planning, in particular inference and
+application of state invariants.
+
+\item \href{http://fai.cs.uni-saarland.de/gnad/}{Daniel Gnad}
+(\href{mailto:gnad@cs.uni-saarland.de}{gnad@cs.uni-saarland.de})\\
+Daniel Gnad is a PhD student at the Foundations of Artificial
+Intelligence group at Saarland University. His research is in the field
+of classical AI planning, mainly focusing on the newly developed concept
+of star-topology decoupled search. Besides, he has also worked on partial
+delete-relaxation.
+
+\item \href{http://ai.cs.unibas.ch/people/pommeren}{Florian Pommerening}
+   (\href{mailto:florian.pommerening@unibas.ch}{florian.pommerening@unibas.ch})\\
+Florian Pommerening is a postdoctoral researcher in the AI group at the
+University of Basel, Switzerland, where he completed his PhD in 2017.
+His main research interest is classical automated planning. For
+his PhD thesis, he used linear and mixed integer programs to
+automatically derive heuristic functions.
+
+\item \href{http://www.informatik.uni-freiburg.de/~speckd/}{David Speck}
+(\href{mailto:speckd@informatik.uni-freiburg.de}{speckd@informatik.uni-freiburg.de})\\
+David Speck is a PhD student in the Foundations of Artificial Intelligence
+group at the University of Freiburg, Germany. His current research focuses on
+the use of symbolic data structures for automated planning.
+
+\item \href{https://people.cs.aau.dk/~alto/}{{\'A}lvaro Torralba}
+  (\href{mailto:alto@cs.aau.dk}{alto@cs.aau.dk})\\ \'Alvaro Torralba is an Associate
+  Professor at Aalborg University. His main research interests are on heuristic search and
+  automated planning.
+
+
+\end{itemize}
+
+\section*{Estimated Interest}
+Previous years have shown an average number of about $12$ workshop
+speakers and an audience of approximately $40$ attendees. The
+expectation is for a similar amount this year.
+
+
+\end{document}

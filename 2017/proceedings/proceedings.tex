@@ -1,0 +1,63 @@
+\documentclass[letterpaper]{article}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+
+\usepackage{pdfpages}
+\usepackage{graphicx}
+
+\usepackage{geometry}
+\geometry{letterpaper,nohead,total={7in, 9in}}
+
+
+\newcommand{\pp}[3]{{
+    \addcontentsline{toc}{section}{#3\\ \textnormal{\textit{#2}}}
+    \includepdf[pages=-,pagecommand={\thispagestyle{plain}}]{%
+        submissions/HSDIP_2017_paper_#1.pdf}
+}}
+
+
+\begin{document}
+\pagenumbering{roman}
+\includepdf{template/titlepage.pdf}
+\cleardoublepage
+
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{template/organization.pdf}
+
+\vspace*{14mm}
+\noindent\textbf{J.\ Benton}\\
+NASA Ames Research Center \& AAMU-RISE, USA\\[1em]
+\textbf{Nir Lipovetzky}\\
+University of Melbourne, Australia\\[1em]
+\textbf{Florian Pommerening}\\
+University of Basel, Switzerland\\[1em]
+\textbf{Miquel Ramirez}\\
+University of Melbourne, Australia\\[1em]
+\textbf{Enrico Scala}\\
+ANU, Australia\\[1em]
+\textbf{Jendrik Seipp}\\
+University of Basel, Switzerland\\[1em]
+\textbf{\'{A}lvaro Torralba}\\
+Saarland University, Germany
+
+\clearpage
+
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{template/preface.pdf}
+\input{preface}
+
+\clearpage
+
+\vspace*{5mm}
+\includegraphics[trim={15pt 0pt 0pt 0pt}]{%
+ template/tableofcontents.pdf}
+
+\renewcommand\contentsname{}
+\tableofcontents
+
+\cleardoublepage
+\pagenumbering{arabic}
+\input{paperslist}
+
+\end{document}

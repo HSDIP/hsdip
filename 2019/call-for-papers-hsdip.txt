@@ -1,0 +1,146 @@
+********************************************************************************
+                            CALL FOR PAPERS
+
+         Heuristics and Search for Domain-independent Planning 
+                             (HSDIP 2019)
+     https://icaps19.icaps-conference.org/workshops/HSDIP/index.html
+
+Collocated with the 
+
+  29th International Conference on Automated Planning and Scheduling 
+                             (ICAPS 2019)
+                 https://icaps19.icaps-conference.org
+
+taking place in Berkeley, CA, USA, 11-15th July 2019.
+********************************************************************************
+
+Heuristics and search algorithms are the two key components of heuristic search, 
+one of the main approaches to many variations of domain-independent planning, 
+including classical planning, temporal planning, planning under uncertainty and 
+adversarial planning. This workshop seeks to understand the underlying principles 
+of current heuristics and search methods, their limitations, ways for overcoming 
+those limitations, as well as the synergy between heuristics and search.
+
+### Topics and Objectives
+
+Search guided by heuristics, automatically derived from a declarative 
+formulation of action effects, preconditions and goals, has been a successful 
+approach to domain-independent planning. From the initial success of heuristics 
+based on syntactic relaxations and abstractions, the theory and practice of 
+developing novel heuristics have become more diverse, often borrowing concepts 
+and tools from Optimisation and Satisfiability, and bolder, tackling more 
+expressive planning languages.
+
+In parallel to the increasing maturity of the methods and tools used to derive 
+heuristic methods, important theoretical results have brought around a more 
+clear image of how heuristic methods relate to each other. For instance, it has 
+been shown that classic frameworks for heuristic search as planning can be 
+encoded symbolically and their execution simulated via off-the-shelf 
+satisfiability solvers. Groundbreaking theoretical work has shown how heuristic 
+methods can be grouped into distinct families, depending on whether they can or 
+cannot be shown to dominate or be compiled into each other.
+
+As a result, the formulation of heuristics for domain-independent planning is 
+increasingly being less about describing procedures that exploit specific 
+features in declarative information, and more about describing auxiliary 
+constraints that make apparent those features to off-the-shelf solvers that 
+operate over a logical or algebraic theory that over-approximate the set of valid
+plans and compute the heuristic estimator.
+
+Last, but not least, there is a growing realization that the search algorithm 
+used can significantly amplify or reduce the utility of specific heuristics. 
+Recent work that highlights the pitfalls latent in well-known search algorithms, 
+also suggests opportunities to exploit synergies between the heuristic 
+calculation and the search control.
+
+The workshop on Heuristics and Search for Domain-Independent Planning (HSDIP) is
+the 11th workshop in a series that started with the "Heuristics for 
+Domain-Independent Planning" (HDIP) workshops at ICAPS 2007. At ICAPS 2012, the 
+workshop was changed to its current name and scope to explicitly encourage work 
+on search for domain-independent planning.
+
+Examples of typical topics for submissions to this workshop are:
+- automatic derivation of heuristic estimators for domain-independent planning
+- formal results showing equivalence or dominance between heuristics
+- novel heuristic methods dealing with planning with numeric variables
+  and effects, partial observability and non-deterministic action effects
+- heuristic estimators for domain-independent planning via procedures or 
+  suitably defined encodings of declarative descriptions of planning tasks into 
+  Satisfiability or Optimisation
+- novel search techniques for domain-independent planning that explicitly aim at 
+  exploiting effectively the properties of existing heuristics
+- empirical observations of synergies between heuristics and search in 
+  domain-independent planning
+- challenging domains for existing combinations of heuristics and search 
+  algorithms
+
+The HSDIP workshop has always been welcoming of multidisciplinary work, for 
+example, drawing inspiration from operations research (like row and column 
+generation algorithms), convex optimization (like gradient optimization for 
+hybrid planning), constraint programming or satisfiability, or applications of 
+machine learning in heuristic search (e.g., learning heuristics, adaptive search 
+strategies, or heuristic selection). We will keep this stance, particularly as 
+ICAPS 2019 will continue the special track on planning & learning.
+
+### Submissions
+
+Please format submissions in AAAI style (see instructions in the Author Kit at 
+https://www.aaai.org/Publications/Templates/AuthorKit19.zip) and keep them to 
+at most 9 pages including references. Authors considering submitting to the 
+workshop papers rejected from the main conference, please ensure you do your 
+utmost to address the comments given by ICAPS reviewers. Please do not submit 
+papers that are already accepted for the main conference to the workshop.
+
+Submissions will be made through OpenReview
+
+https://openreview.net/group?id=icaps-conference.org/ICAPS/2019/Workshop/HSDIP
+
+The following conditions apply:
+
+ - Submissions will be double blind to the general public, but single blind
+ to the official reviewers and organizing committee.
+ - The submitted papers, reviews and author responses to those will be public,
+ and all anonymous.
+ - Discussions between reviewers and organisers will be private.
+
+Every submission will be reviewed by two members of the organizing committee
+according to the usual criteria such as relevance to the workshop, significance
+of the contribution, and technical quality.
+
+Submissions sent to other conferences are allowed. It is the responsibility of
+the authors to ensure that those venues allow for papers submitted to be
+already published in "informal" ways (e.g. on proceedings or websites without
+associated ISSN/ISBN).
+
+The workshop is meant to be an open and inclusive forum, and we encourage papers
+that report on work in progress or that do not fit the mold of a typical
+conference paper. Non-trivial negative results are welcome to the workshop, but
+we expect the authors to argue for the signficance of the presented results to
+alternative lines of research on the topic of choice.
+
+At least one author of each accepted paper must attend the workshop in order to
+present the paper. Authors must register for the ICAPS main conference in order
+to attend the workshop. There will be no separate workshop-only registration.
+
+### Deadlines and Dates
+
+Submission deadline: 15 March 2019 (UTC-12 timezone)
+Notification: 12 April 2019
+Camera Ready: 24 May 2019
+Workshop: 11/12 July 2019
+
+### Contact and Enquiries
+
+Daniel Gnad, Saarland University, gnad at cs.uni-saarland.de
+Miquel Ramirez, University of Melbourne, miquel.ramirez at unimelb.edu.au
+
+### Workshop Organizers
+
+Patrik Haslum, Australian National University, Australia
+Daniel Gnad, Saarland University, Germany
+Miquel Ramirez, University of Melbourne, Australia
+Florian Pommerening, University of Basel, Switzerland
+Jendrik Seipp, University of Basel, Switzerland
+Florian Geisser, Australian National University, Australia
+Guillem Francès, University of Basel, Switzerland
+Silvan Sievers, University of Basel, Switzerland

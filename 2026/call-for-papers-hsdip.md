@@ -108,7 +108,7 @@ order to present the paper.
 
 ### Organizing Committee
 
-**Malte Helmert**, University of Basel, Switzerland
+**Malte Helmert**, University of Basel, Switzerland  
 **Devin Thomas**, University of New Hampshire, United States  
 **Arnaud Lequen**, Linköping University, Sweden  
 **Alison Paredes**, Queen's University, Canada  

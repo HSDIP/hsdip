@@ -1,27 +1,16 @@
 \documentclass[10pt]{article}
-
-\newcommand{\commentout}[1]{}
 \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,pdfstartview=FitH]{hyperref}
-
-\usepackage{geometry}
-\usepackage{layout}
-\usepackage{titling}
-
-\setlength{\droptitle}{-5em}   % This is your set screw
+\usepackage[a4paper]{geometry}
 
 \begin{document}
 
 \title{ICAPS 2026 Workshop on Heuristics and Search for Domain-independent
-Planning (HSDIP)%\\ \vspace*{0.7cm} Workshop Proposal
-}
-\date{}
+Planning (HSDIP)}
 
+\date{}
 \author{}
 
 \maketitle
-
-\vspace{-2cm}
-
 
 We propose a continuation of the ICAPS workshop series ``Heuristics
 and Search for Domain-independent Planning'' at ICAPS 2026.
@@ -31,7 +20,6 @@ Heuristic search is one of the main approaches in domain-independent
 planning.  We look for contributions that help us better
 understand the ideas underlying current heuristics, their limitations,
 and ways for overcoming them.
-%
 Since the search algorithm plays an equally important role in the
 approach, we also invite contributions on new ideas on search
 techniques for domain-independent planning, as well as the synergy
@@ -41,7 +29,6 @@ Contributions do not have to show that a new approach ``beats the competition''.
 While performance measured in the number of evaluated nodes, time, and solution
 quality remains relevant, in this workshop we seek above all crisp and
 meaningful ideas and understanding.
-%
 We are interested in all variations of domain-independent planning
 such as classical planning, temporal planning, hybrid planning, planning under
 uncertainty, adversarial planning, or (model-based) reinforcement learning.
@@ -75,20 +62,20 @@ all workshop contributors to present orally as well as in a poster
 session, if the conference can accommodate posters for the workshops.
 
 Many workshops these days have become a lot like mini-conferences in
-the sense that they are mostly traditional presentations of papers
-that could also be conference presentations and ended up at the
-workshop due to deadline considerations, rejection from the main
+the sense that they mostly consist of traditional presentations of
+papers that could also be given at the main conference and ended up at
+the workshop due to deadline considerations, rejection from the main
 program, or as part of a ``papers from other conferences'' scheme.
 While we are definitely still happy to see such presentations,
-following a discussion at HSDIP 2025, we want to make a concerted
+following a discussion at HSDIP 2025 we want to make a concerted
 effort this year to make the workshop more ``workshop-like'' with a
 lot of breathing room for half-baked ideas, failed efforts and open
-challenges, and with longer discussions for the talks, panels or other
-interactive components.
+challenges, and with longer discussions for the talks, as well as
+panels or other interactive components.
 
-To make these ideas more concrete, we plan to solicit additional ideas
-in this direction from the community and conduct a poll to gauge the
-interest in different suggestions. We will also put special emphasis
+To make this general plan more concrete, we plan to solicit additional
+ideas in this direction from the community and conduct a poll to gauge
+the interest in different suggestions. We will also put special emphasis
 on exploratory aspects of the workshop and interactivity in the call
 for papers.
 
@@ -110,30 +97,17 @@ This list is by no means complete, and we will continue to innovate on what
 we can do as an individual workshop to promote diversity both within the scope
 of HSDIP, and ICAPS more broadly.
 
-% The HSDIP workshop has always been and strives to continue being an inclusive environment.
-% While a large portion of authors is still male and either European or North American/Australian,
-% in the past we have seen a number of submissions from other, underrepresented regions,
-% such as South America or Asia, or by non-male authors. We will continue encouraging
-% diversity among submission authors.
-
-% We feel that promoting diversity just by explicitly mentioning that we
-% put an emphasis on underrepresented groups is not sufficient. We
-% want to emphasize that a career choice as a computer scientist is a strong choice,
-% regardless of gender and nationality. For that we plan to have an invited talk
-% given by a speaker who represents that diversity and successful careers can go
-% hand in hand.
-
 \section*{Organization}
 
 We plan to organize the workshop in a team of four people.
 For reviewing, we will take a major part of the involved effort.
-If needed to handle the workload, we will invite a small number of additional 
+If needed to handle the workload, we will invite a small number of additional
 external reviewers.
 These would be carefully briefed regarding the goals of the workshop,
 in particular being open to submissions that don't look like typical
 conference papers.
-We expect to have around 10--20 submissions, which can easily be handled in that 
-way, particularly considering that reviewing for workshops is generally 
+We expect to have around 10--20 submissions, which can easily be handled in that
+way, particularly considering that reviewing for workshops is generally
 lightweight.
 
 \newcommand{\organizer}[4]{\href{#2}{#1} (\href{mailto:#3}{#3})\\{#4}}
@@ -154,82 +128,29 @@ search to mathematical programming (LPs/MIPs), and unsolvability.
 Arnaud Lequen is a postdoctoral researcher at Linköping University, Sweden,
 where he works on symbolic methods for automated planning. He obtained a PhD
 at IRIT in Toulouse, France, in November 2024, under the supervision of Prof.\
-Martin C.\ Cooper. His thesis focused on theoretical and practical 
+Martin C.\ Cooper. His thesis focused on theoretical and practical
 aspects of extracting knowledge from planning models, prior to the solving phase.
 
 \item \organizer{Alison Paredes}{https://mulab.ai/member/alison.paredes/}{20asp3@queensu.ca}
-Alison Paredes is a PhD candidate at Queen's University, working with Prof. 
-Christian Muise, and Pathways Intern at NASA Ames.
-Her research is on planning as a source of sampling bias, with applications 
-wherever planner-generated data is used as input to statistical learning 
-models, including LLM reasoning, multi-robot path finding, and learned 
+Alison Paredes is a PhD candidate at Queen's University, working with
+Prof.\ Christian Muise, and Pathways Intern at NASA Ames.
+Her research is on planning as a source of sampling bias, with applications
+wherever planner-generated data is used as input to statistical learning
+models, including LLM reasoning, multi-robot path finding, and learned
 heuristics.
-She earned her master's degree in Computer Science at the University of New 
+She earned her master's degree in Computer Science at the University of New
 Hampshire.
 
 \item \organizer{Devin Thomas}{https://dwthomas.github.io/}{dwt@cs.unh.edu}
 Devin Thomas is a PhD student at the University of New Hampshire.
-His primary research focus is on heuristic search algorithms for planning under 
+His primary research focus is on heuristic search algorithms for planning under
 time pressure.
 \end{itemize}
 
-% \item \organizer{Thorsten Kl\"o\ss{}ner}{http://fai.cs.uni-saarland.de/kloessner/}{kloessner@cs.uni-saarland.de}
-% Thorsten Kl\"o\ss{}ner is a PhD student at the Foundations of Artificial
-% Intelligence group at Saarland University. His main research interest lies in
-% the construction of admissible heuristics, as well as admissible heuristic
-% combination strategies in Probabilistic Planning. In particular, his research
-% focuses primarily on abstraction heuristics, as well as cost partitioning
-% heuristics for stochastic shortest path problems.
-
-% \item \organizer{Salom\'{e} Eriksson}{https://ai.dmi.unibas.ch/people/eriksson/}{salome.eriksson@unibas.ch}
-% Salom\'{e} Eriksson is a postdoctoral researcher at the University of Basel,
-% where she also received her PhD in Computer Science in 2019. Her current
-% research as well as her dissertation focuses on how we can create certificates
-% for unsolvable planning tasks in order to increase trustworthiness of
-% state-of-the-art planning systems.
-
-% \item \organizer{Christian Muise}{http://www.haz.ca/}{christian.muise@queensu.ca}
-% {Christian Muise is an assistant professor at Queen's University in
-% Kingston, Canada. He completed his PhD on relevance-based techniques for
-% automated planning at the University of Toronto. Subsequently, he
-% held postdoc positions at the University of Melbourne and MIT,
-% and then worked in industry for two years at the MIT-IBM Watson AI Lab. He
-% has co-organized HSDIP in 2016, 2018 and has additionally held several
-% ICAPS conference organization positions including Publicity Chair (2016, 2022),
-% Journal Track Chair (2019), and Workshop Chair (2020).}
-
-% \item \href{http://people.eng.unimelb.edu.au/nlipovetzky/}{Nir Lipovetzky}
-%   (\href{mailto:nir.lipovetzky@unimelb.edu.au}{nir.lipovetzky@unimelb.edu.au})\\
-% Nir is a Senior Lecturer at The University of Melbourne.
-% His research is in the area of Automated Planning, with a special focus on width-based algorithms
-% to introduce different approaches to the problem of inference in planning. He was co-publicity
-% chair of ICAPS 2010, co-organizer of the HSDIP workshop at ICAPS 2015-2018, co-organizer of the
-% first unsolvability IPC 2016 track, co-chair of ICAPS 2017 journal track, and Co-Program Chair ICAPS 2019.
-
-%\item \href{http://ai.cs.unibas.ch/people/pommeren}{Florian Pommerening}
-%   (\href{mailto:florian.pommerening@unibas.ch}{florian.pommerening@unibas.ch})\\
-%Florian Pommerening is a postdoctoral researcher in the AI group at the
-%University of Basel, Switzerland, where he completed his PhD in 2017.
-%His main research interest is classical automated planning. For
-%his PhD thesis, he used linear and mixed integer programs to
-%automatically derive heuristic functions.
-
-%\item \href{http://www.informatik.uni-freiburg.de/~speckd/}{David Speck}
-%(\href{mailto:speckd@informatik.uni-freiburg.de}{speckd@informatik.uni-freiburg.de})\\
-%David Speck is a PhD student in the Foundations of Artificial Intelligence
-%group at the University of Freiburg, Germany. His current research focuses on
-%the use of symbolic data structures for automated planning.
-
-%\item \href{https://people.cs.aau.dk/~alto/}{{\'A}lvaro Torralba}
-%  (\href{mailto:alto@cs.aau.dk}{alto@cs.aau.dk})\\ \'Alvaro Torralba is an Associate
-%  Professor at Aalborg University. His main research interests are on heuristic search and
-%  automated planning.
-
-
 \section*{Estimated Interest}
+
 Previous years have shown an average number of about $12$ workshop
 speakers and an audience of approximately $40$ attendees. The
 expectation is for a similar amount this year.
-
 
 \end{document}

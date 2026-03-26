@@ -1,8 +1,8 @@
 # Heuristics and Search for Domain-independent Planning (HSDIP 2026)
 
-ICAPS'26 Workshop
-Dublin, Ireland
-June 27-28, 2026
+ICAPS'26 Workshop \
+Dublin, Ireland \
+June 28–29, 2026
 
 ## Aim and Scope of the Workshop
 
@@ -18,14 +18,21 @@ search.
 The HSDIP workshop has always been welcoming of multidisciplinary
 work, for example, drawing inspiration from operations research (like
 row and column generation algorithms), convex optimization (like
-gradient optimization for hybrid planning), constraint programming, or
-satisfiability.
+gradient optimization for hybrid planning), constraint programming,
+satisfiability, or applications of machine learning in heuristic search
+(e.g., learning heuristics, or heuristic selection).
 
-The workshop is meant to be an open and inclusive forum, and we
-encourage papers that report on work in progress or that do not fit
-the mold of a typical conference paper. Non-trivial negative results
-are welcome to the workshop, but we expect the authors to argue for
-the significance of the presented results.
+The workshop is meant to be an open and inclusive forum, and we encourage
+papers that report on work in progress or that do not fit the mold of a
+typical conference paper. Contributions do not have to show that a new approach
+outperforms the state of the art. While performance measured in the number of
+evaluated nodes, time, and solution quality remains relevant, in this workshop
+we seek above all crisp and meaningful ideas and understanding. We are
+interested in all variations of domain-independent planning such as classical
+planning, temporal planning, hybrid planning, planning under uncertainty,
+adversarial planning, or (model-based) reinforcement learning. Non-trivial
+negative results are welcome to the workshop, but we expect the authors to
+argue for the significance of the presented results.
 
 ## Topics of Interest
 
@@ -51,52 +58,38 @@ Examples of typical topics for submissions to this workshop are:
 
 ## Important Dates
 
-**Abstract Submission:**  
-April 13, 2026 (UTC-12 timezone)
-
 **Submission deadline:**  
-April 27, 2026 (UTC-12 timezone)
-
-**Author feedback:**  
-May 18-20, 2026
+May 7, 2026 (UTC-12 timezone)
 
 **Notification:**  
-May 25, 2026
-
-**Camera Ready:**  
-June 5, 2026
+May 28, 2026
 
 **Workshop:**  
-27/28 June, 2026
+28-29 June, 2026
 
 ## Submission Details
 
-Please format submissions in AAAI style (see instructions in the Author Kit at <https://aaai.org/authorkit25/>). Long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category, submissions shorter than the page limit are welcome. Long papers will be allocated a longer presentation at the workshop.
+Please format submissions in AAAI style (see instructions in the Author Kit at https://aaai.org/authorkit25/). Long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category, submissions shorter than the page limit are welcome. Long papers will be allocated a longer presentation at the workshop.
 
-Submissions will be made through OpenReview
-<https://openreview.net/group?id=icaps-conference.org/ICAPS/2025/Workshop/HSDIP>
+Submissions will be made through EasyChair:
+https://easychair.org/conferences/?conf=icapshsdip2026
+
 
 The following conditions apply:
 
 - Submissions will be *double blind* (except for two program chairs who will see author names).
 - Papers will be reviewed by a member of the organizing committee, and/or external reviewers selected by the organizing committee, according to the usual criteria such as relevance to the workshop, significance of the contribution, and technical quality.
-- Authors may send a rebuttal to the reviews which will be discussed by the reviewers before making the acceptance decision.
-- Accepted papers, reviews and discussion between authors and reviewers will be *public*, and all *anonymous*.
 - Discussions between reviewers and organizers will remain *private*.
-- At least one author of each accepted paper must attend the workshop in order to present the paper.
+
+At least one author of each accepted paper must attend the workshop in order to present the paper.
 
 ### Policy on Previously Published Materials
 
-Previously published papers are only assessed based on their relevance to the workshop by a member of the organizing committee and will not receive a full review.
-Unpublished work will be reviewed by a member of the organizing committee,
-and/or external reviewers selected by the organizing committee, according
-to the usual criteria such as relevance to the workshop, significance of
-the contribution, and technical quality. There will be a brief discussion
-phase where author and reviewers can interactively engage and discuss the
-submission and the reviews.
+*Previously published papers* to conferences *other than ICAPS* are allowed. They will only receive a light review for relevance by a member of the organizing committee. Please do not submit papers accepted at the main conference.
 
-At least one author of each accepted paper must attend the workshop in
-order to present the paper.
+*Rejected papers from the main conference* are welcome if you do your utmost to address the comments given by ICAPS reviewers.
+
+*Parallel submissions* sent to other conferences are allowed from our side. It is your responsibility to ensure that those venues allow for papers submitted to be published in parallel "informal" ways (e.g. in workshop proceedings or websites without associated ISSN/ISBN).
 
 ### Policy on Previously Published Materials
 
@@ -109,8 +102,8 @@ order to present the paper.
 ### Organizing Committee
 
 **Malte Helmert**, University of Basel, Switzerland  
-**Devin Thomas**, University of New Hampshire, United States  
 **Arnaud Lequen**, Linköping University, Sweden  
 **Alison Paredes**, Queen's University, Canada  
+**Devin Thomas**, University of New Hampshire, United States  
 
 Contact: hsdip@googlegroups.com

@@ -12,7 +12,7 @@ domain-independent planning, including classical planning, temporal
 planning, planning under uncertainty and adversarial planning. This
 workshop seeks to understand the underlying principles of current
 heuristics and search methods, their limitations, ways for overcoming
-those limitations, as well as the synergy between heuristics and 
+those limitations, as well as the synergy between heuristics and
 search.
 
 The HSDIP workshop has always been welcoming of multidisciplinary
@@ -44,7 +44,7 @@ Examples of typical topics for submissions to this workshop are:
   and effects, partial observability and non-deterministic action effects
 - heuristic estimators for domain-independent planning via procedures or
   suitably defined encodings of declarative descriptions of planning tasks into
-  Satisfiability or Optimisation
+  satisfiability or optimisation
 - novel search techniques for domain-independent planning that explicitly aim at
   exploiting effectively the properties of existing heuristics
 - empirical observations of synergies between heuristics and search in
@@ -65,11 +65,11 @@ May 7, 2026 (UTC-12 timezone)
 May 28, 2026
 
 **Workshop:**  
-28-29 June, 2026
+June 28-29, 2026
 
 ## Submission Details
 
-Please format submissions in AAAI style (see instructions in the Author Kit at https://aaai.org/authorkit25/). Long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category, submissions shorter than the page limit are welcome. Long papers will be allocated a longer presentation at the workshop.
+Please format submissions in AAAI style (see instructions in the Author Kit at https://aaai.org/authorkit26-1/). Long (up to 9 pages including references) and short (up to 5 pages including references) papers are the standard category, submissions shorter than the page limit are welcome. Long papers will be allocated a longer presentation at the workshop.
 
 Submissions will be made through EasyChair:
 https://easychair.org/conferences/?conf=icapshsdip2026
